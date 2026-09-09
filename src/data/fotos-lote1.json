@@ -1,0 +1,1037 @@
+{
+  "toyota-yaris-sedan-xls": [],
+  "volkswagen-polo-highline": [
+    {
+      "archivo": "volkswagen-polo-highline-real-1.jpg",
+      "alt": "Volkswagen Polo, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Polo_VI_(2021)_IMG_5322.jpg",
+      "width": 1600,
+      "height": 1065
+    },
+    {
+      "archivo": "volkswagen-polo-highline-real-2.jpg",
+      "alt": "Volkswagen Polo, de atrás",
+      "tipo": "trasera",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1997_Volkswagen_Polo_(6N)_5-door_hatchback_(2009-01-07)_01.jpg",
+      "width": 1600,
+      "height": 1158
+    },
+    {
+      "archivo": "volkswagen-polo-highline-real-3.jpg",
+      "alt": "Volkswagen Polo, de frente",
+      "tipo": "frente",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2011_Volkswagen_Polo_S_60_1.2_Front.jpg",
+      "width": 1600,
+      "height": 870
+    },
+    {
+      "archivo": "volkswagen-polo-highline-real-4.jpg",
+      "alt": "Volkswagen Polo, exterior",
+      "tipo": "detalle",
+      "credito": "JamesYoung8167",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Polo_V_Facelift_Shishi_01_2022-02-23.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "volkswagen-polo-highline-real-5.jpg",
+      "alt": "Volkswagen Polo, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Polo_VI_GTI_(2021)_1X7A0343.jpg",
+      "width": 1600,
+      "height": 1022
+    },
+    {
+      "archivo": "volkswagen-polo-highline-real-6.jpg",
+      "alt": "Volkswagen Polo, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Polo_VI_GTI_(2021)_1X7A0344.jpg",
+      "width": 1600,
+      "height": 1068
+    }
+  ],
+  "volkswagen-virtus-comfortline": [
+    {
+      "archivo": "volkswagen-virtus-comfortline-real-1.jpg",
+      "alt": "Volkswagen Virtus, exterior",
+      "tipo": "detalle",
+      "credito": "Just a Man",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2024_Volkswagen_Virtus_1.6_MSi_Trendline_(facelift).jpg",
+      "width": 1600,
+      "height": 930
+    },
+    {
+      "archivo": "volkswagen-virtus-comfortline-real-6.jpg",
+      "alt": "Volkswagen Virtus, de atrás",
+      "tipo": "trasera",
+      "credito": "Dairokkan9",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2023_Volkswagen_Virtus_Topline_rear_20230520.jpg",
+      "width": 1600,
+      "height": 900
+    }
+  ],
+  "nissan-versa-advance": [],
+  "hyundai-hb20-comfort": [
+    {
+      "archivo": "hyundai-hb20-comfort-real-1.jpg",
+      "alt": "Hyundai HB20, exterior",
+      "tipo": "detalle",
+      "credito": "Just a Man",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2025_Hyundai_HB20_1.6_Comfort_Plus.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "hyundai-hb20-comfort-real-2.png",
+      "alt": "Hyundai HB20, de frente",
+      "tipo": "frente",
+      "credito": "Autosdeprimera",
+      "fuente": "Wikimedia Commons · CC BY 3.0",
+      "licencia": "CC BY 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2023_Hyundai_HB20_1.0_T-GDi_Platinum_Plus_(Brazil)_front_view.png",
+      "width": 1600,
+      "height": 961
+    },
+    {
+      "archivo": "hyundai-hb20-comfort-real-3.png",
+      "alt": "Hyundai HB20, de atrás",
+      "tipo": "trasera",
+      "credito": "Autosdeprimera",
+      "fuente": "Wikimedia Commons · CC BY 3.0",
+      "licencia": "CC BY 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2023_Hyundai_HB20_1.0_T-GDi_Platinum_Plus_(Brazil)_rear_view.png",
+      "width": 1600,
+      "height": 960
+    },
+    {
+      "archivo": "hyundai-hb20-comfort-real-4.png",
+      "alt": "Hyundai HB20, interior",
+      "tipo": "interior",
+      "credito": "Autosdeprimera",
+      "fuente": "Wikimedia Commons · CC BY 3.0",
+      "licencia": "CC BY 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2023_Hyundai_HB20_1.0_T-GDi_Platinum_Plus_(Brazil)_interior_01.png",
+      "width": 1600,
+      "height": 738
+    },
+    {
+      "archivo": "hyundai-hb20-comfort-real-5.jpg",
+      "alt": "Hyundai HB20, exterior",
+      "tipo": "detalle",
+      "credito": "Just a Man",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Hyundai_HB20_1.6_Comfort_Plus_2025.jpg",
+      "width": 1600,
+      "height": 948
+    },
+    {
+      "archivo": "hyundai-hb20-comfort-real-6.png",
+      "alt": "Hyundai HB20, de frente",
+      "tipo": "frente",
+      "credito": "Autosdeprimera",
+      "fuente": "Wikimedia Commons · CC BY 3.0",
+      "licencia": "CC BY 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2023_Hyundai_HB20_1.0_T-GDi_Platinum_Plus_(Brazil)_front_view_02.png",
+      "width": 1600,
+      "height": 900
+    }
+  ],
+  "suzuki-swift-glx": [],
+  "honda-city-lx": [
+    {
+      "archivo": "honda-city-lx-real-1.jpg",
+      "alt": "Honda City, de atrás",
+      "tipo": "trasera",
+      "credito": "Chanokchon",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2026_Honda_City_e-HEV_RS_(1,_Rear).jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "honda-city-lx-real-2.jpg",
+      "alt": "Honda City, exterior",
+      "tipo": "detalle",
+      "credito": "Chanokchon",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2026_Honda_City_e-HEV_RS_(1).jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "honda-city-lx-real-3.jpg",
+      "alt": "Honda City, interior",
+      "tipo": "interior",
+      "credito": "Ethan Llamas",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Honda_City_GN2_1.5_V_-_interior_view.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "honda-city-lx-real-5.jpg",
+      "alt": "Honda City, de atrás",
+      "tipo": "trasera",
+      "credito": "Chanokchon",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2026_Honda_City_e-HEV_SV_(Rear).jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "honda-city-lx-real-6.jpg",
+      "alt": "Honda City, de atrás",
+      "tipo": "trasera",
+      "credito": "Chanokchon",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2026_Honda_City_Hatchback_e-HEV_RS.jpg",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "toyota-corolla-xli": [],
+  "toyota-corolla-seg-hybrid": [
+    {
+      "archivo": "toyota-corolla-seg-hybrid-real-1.jpg",
+      "alt": "Toyota Corolla, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander-93",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2024_Toyota_Corolla_Touring_Sports_Hybrid_(E210)_IMG_9874.jpg",
+      "width": 1600,
+      "height": 766
+    },
+    {
+      "archivo": "toyota-corolla-seg-hybrid-real-2.jpg",
+      "alt": "Toyota Corolla, exterior",
+      "tipo": "detalle",
+      "credito": "TTTNIS",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2025_Toyota_Corolla_Concept.jpg",
+      "width": 1600,
+      "height": 805
+    }
+  ],
+  "fiat-pulse-drive": [],
+  "fiat-fastback-audace": [
+    {
+      "archivo": "fiat-fastback-audace-real-1.jpg",
+      "alt": "Fiat Fastback, de atrás",
+      "tipo": "trasera",
+      "credito": "Just a Man",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2024_Fiat_Fastback_1.3_GSE_Turbo_270_(rear).jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "fiat-fastback-audace-real-2.jpg",
+      "alt": "Fiat Fastback, interior",
+      "tipo": "interior",
+      "credito": "Just a Man",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2024_Fiat_Fastback_interior.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "fiat-fastback-audace-real-3.jpg",
+      "alt": "Fiat Fastback, de atrás",
+      "tipo": "trasera",
+      "credito": "Just a Man",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2024_Fiat_Fastback_1.3_GSE_Turbo_270_(front).jpg",
+      "width": 1600,
+      "height": 1099
+    },
+    {
+      "archivo": "fiat-fastback-audace-real-4.jpg",
+      "alt": "Fiat Fastback, interior",
+      "tipo": "interior",
+      "credito": "Just a Man",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Fastback_2024_interior.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "fiat-fastback-audace-real-5.jpg",
+      "alt": "Fiat Fastback, de atrás",
+      "tipo": "trasera",
+      "credito": "Just a Man",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2024_Fiat_Fastback_1.3_Turbo_270.jpg",
+      "width": 1600,
+      "height": 957
+    },
+    {
+      "archivo": "fiat-fastback-audace-real-6.jpg",
+      "alt": "Fiat Fastback, de atrás",
+      "tipo": "trasera",
+      "credito": "Just a Man",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Fastback_Turbo_270_2026.jpg",
+      "width": 1600,
+      "height": 981
+    }
+  ],
+  "renault-kardian-evolution": [],
+  "chery-tiggo-2-pro": [],
+  "volkswagen-nivus-comfortline": [
+    {
+      "archivo": "volkswagen-nivus-comfortline-real-1.jpg",
+      "alt": "Volkswagen Nivus, exterior",
+      "tipo": "detalle",
+      "credito": "RL GNZLZ from Chile",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Nivus_170_TSi_Comrotline_2025_(54337004635).jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "volkswagen-nivus-comfortline-real-5.jpg",
+      "alt": "Volkswagen Nivus, exterior",
+      "tipo": "detalle",
+      "credito": "Just a Man",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2025_Volkswagen_Nivus_1.0_TSi_200_Comfortline_(facelift).jpg",
+      "width": 1600,
+      "height": 951
+    },
+    {
+      "archivo": "volkswagen-nivus-comfortline-real-6.jpg",
+      "alt": "Volkswagen Nivus, exterior",
+      "tipo": "detalle",
+      "credito": "Just a Man",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2025_Volkswagen_Nivus_1.0_TSi_200_Trendline.jpg",
+      "width": 1600,
+      "height": 761
+    }
+  ],
+  "byd-yuan-pro": [],
+  "byd-dolphin-mini": [
+    {
+      "archivo": "byd-dolphin-mini-real-1.jpg",
+      "alt": "BYD Dolphin Mini, de frente",
+      "tipo": "frente",
+      "credito": "Ethan Llamas",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2025_BYD_Seagull_EV_in_Sprout_Green,_front_left.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "byd-dolphin-mini-real-2.jpg",
+      "alt": "BYD Dolphin Mini, de atrás",
+      "tipo": "trasera",
+      "credito": "User 3204",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2023_BYD_Seagull_(rear).jpg",
+      "width": 1600,
+      "height": 974
+    },
+    {
+      "archivo": "byd-dolphin-mini-real-3.jpg",
+      "alt": "BYD Dolphin Mini, de frente",
+      "tipo": "frente",
+      "credito": "User 3204",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2023_BYD_Seagull_(front).jpg",
+      "width": 1600,
+      "height": 1004
+    }
+  ],
+  "mg-4-electrico": [],
+  "leapmotor-c10": [
+    {
+      "archivo": "leapmotor-c10-real-2.jpg",
+      "alt": "Leapmotor C10, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander-93",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Leapmotor_C10_EV_Auto_Zuerich_2024_DSC_6497.jpg",
+      "width": 1600,
+      "height": 981
+    }
+  ],
+  "changan-cs55-plus": [
+    {
+      "archivo": "changan-cs55-plus-real-1.jpg",
+      "alt": "Changan CS55 Plus, exterior",
+      "tipo": "detalle",
+      "credito": "Retired electrician",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Moscow,_Changan_CS55_Plus_II,_July_2025_01.jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "changan-cs55-plus-real-2.jpg",
+      "alt": "Changan CS55 Plus, de frente",
+      "tipo": "frente",
+      "credito": "Peżot",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Changan_CS55_Plus_front_Pozna%C5%84_Motor_Show_2026.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "changan-cs55-plus-real-3.jpg",
+      "alt": "Changan CS55 Plus, de atrás",
+      "tipo": "trasera",
+      "credito": "Peżot",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Changan_CS55_Plus_rear_Pozna%C5%84_Motor_Show_2026.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "changan-cs55-plus-real-4.jpg",
+      "alt": "Changan CS55 Plus, exterior",
+      "tipo": "detalle",
+      "credito": "Retired electrician",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Moscow,_Changan_CS55_Plus_II,_July_2025_02.jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "changan-cs55-plus-real-5.jpg",
+      "alt": "Changan CS55 Plus, exterior",
+      "tipo": "detalle",
+      "credito": "RL GNZLZ",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Changan_CS55_Plus_Luxury_2024.jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "changan-cs55-plus-real-6.jpg",
+      "alt": "Changan CS55 Plus, de frente",
+      "tipo": "frente",
+      "credito": "Throwawayacc222",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2023_Changan_CS55_Plus_red_front.jpg",
+      "width": 1600,
+      "height": 1112
+    }
+  ],
+  "hyundai-tucson-limited": [
+    {
+      "archivo": "hyundai-tucson-limited-real-1.jpg",
+      "alt": "Hyundai Tucson, exterior",
+      "tipo": "detalle",
+      "credito": "JamesYoung8167",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Hyundai_Tucson_JM_CN_Sanming_01_2022-08-19.jpg",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "kia-sportage-ex": [
+    {
+      "archivo": "kia-sportage-ex-real-1.jpg",
+      "alt": "Kia Sportage, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2025_Kia_Sportage_(NQ5)_Automesse_Ludwigsburg_2025_DSC_2539.jpg",
+      "width": 1600,
+      "height": 979
+    },
+    {
+      "archivo": "kia-sportage-ex-real-2.jpg",
+      "alt": "Kia Sportage, de frente",
+      "tipo": "frente",
+      "credito": "Benespit",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2023_Kia_Sportage_(NQ5)_in_White,_front_left.jpg",
+      "width": 1600,
+      "height": 1053
+    },
+    {
+      "archivo": "kia-sportage-ex-real-3.jpg",
+      "alt": "Kia Sportage, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2025_Kia_Sportage_(NQ5)_Automesse_Ludwigsburg_2025_DSC_2533.jpg",
+      "width": 1600,
+      "height": 990
+    },
+    {
+      "archivo": "kia-sportage-ex-real-4.jpg",
+      "alt": "Kia Sportage, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2025_Kia_Sportage_(NQ5)_Automesse_Ludwigsburg_2025_DSC_2532.jpg",
+      "width": 1600,
+      "height": 1057
+    },
+    {
+      "archivo": "kia-sportage-ex-real-5.jpg",
+      "alt": "Kia Sportage, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2025_Kia_Sportage_(NQ5)_Automesse_Ludwigsburg_2025_DSC_2540.jpg",
+      "width": 1600,
+      "height": 1070
+    },
+    {
+      "archivo": "kia-sportage-ex-real-6.jpg",
+      "alt": "Kia Sportage, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Kia_Sportage_Plug-in-Hybrid_(NQ5)_IAA_2021_1X7A0113.jpg",
+      "width": 1600,
+      "height": 1068
+    }
+  ],
+  "mazda-cx-5-signature": [
+    {
+      "archivo": "mazda-cx-5-signature-real-1.jpg",
+      "alt": "Mazda CX-5, de frente",
+      "tipo": "frente",
+      "credito": "Ethan Llamas",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2025_Mazda_CX-5_2.5_Skyactiv_AWD_Turbo_in_Machine_Gray,_front_left.jpg",
+      "width": 1600,
+      "height": 1143
+    },
+    {
+      "archivo": "mazda-cx-5-signature-real-2.jpg",
+      "alt": "Mazda CX-5, exterior",
+      "tipo": "detalle",
+      "credito": "Retired electrician",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Moscow,_Mazda_CX-5_black,_Sept_2025_01.jpg",
+      "width": 1600,
+      "height": 1058
+    },
+    {
+      "archivo": "mazda-cx-5-signature-real-4.jpg",
+      "alt": "Mazda CX-5, interior",
+      "tipo": "interior",
+      "credito": "Ethan Llamas",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Mazda_CX-5_KM_2.5_e-Skyactiv-G_AWD_Mild_Hybrid_Premium_Plus_interior.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "mazda-cx-5-signature-real-5.jpg",
+      "alt": "Mazda CX-5, de frente",
+      "tipo": "frente",
+      "credito": "ShangTW",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2022_Mazda_CX-5_2.0_front.jpg",
+      "width": 1600,
+      "height": 1064
+    },
+    {
+      "archivo": "mazda-cx-5-signature-real-6.jpg",
+      "alt": "Mazda CX-5, exterior",
+      "tipo": "detalle",
+      "credito": "Dinkun Chen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:MAZDA_CX-5_(KF)_China_(3).jpg",
+      "width": 1600,
+      "height": 796
+    }
+  ],
+  "ford-territory-titanium": [
+    {
+      "archivo": "ford-territory-titanium-real-1.jpg",
+      "alt": "Ford Territory, exterior",
+      "tipo": "detalle",
+      "credito": "Captainmorlypogi1959",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Territory_1.5_Titanium_X_Hybrid_2026_(6).jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "ford-territory-titanium-real-2.jpg",
+      "alt": "Ford Territory, interior",
+      "tipo": "interior",
+      "credito": "Ethan Llamas",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Territory_CX743MCA_FL_1.5_Titanium_X_Hybrid_interior.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "ford-territory-titanium-real-6.jpg",
+      "alt": "Ford Territory, exterior",
+      "tipo": "detalle",
+      "credito": "Elcondelvp",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2026_Ford_Territory_Titanium_(facelift)_in_Argentina.jpg",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "ford-bronco-sport-big-bend": [],
+  "toyota-sw4-srx": [],
+  "dodge-durango-rt": [
+    {
+      "archivo": "dodge-durango-rt-real-1.jpg",
+      "alt": "Dodge Durango, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Dodge_Durango_SRT_Hellcat_MYLE_Festival_2025_DSC_9644.jpg",
+      "width": 1600,
+      "height": 1069
+    },
+    {
+      "archivo": "dodge-durango-rt-real-2.jpg",
+      "alt": "Dodge Durango, de frente",
+      "tipo": "frente",
+      "credito": "Kevauto",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2021_Dodge_Durango_RT_(facelift),_front_6.21.22.jpg",
+      "width": 1600,
+      "height": 1024
+    },
+    {
+      "archivo": "dodge-durango-rt-real-3.jpg",
+      "alt": "Dodge Durango, de atrás",
+      "tipo": "trasera",
+      "credito": "Rutger van der Maar",
+      "fuente": "Wikimedia Commons · CC BY 2.0",
+      "licencia": "CC BY 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Dodge_Durango_USDM_rear.jpg",
+      "width": 1600,
+      "height": 1130
+    },
+    {
+      "archivo": "dodge-durango-rt-real-4.jpg",
+      "alt": "Dodge Durango, exterior",
+      "tipo": "detalle",
+      "credito": "Charles from Port Chester, New York",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Dodge_Durango_SRT_Hellcat_Jailbreak_AWD_(2026)_(55209133286).jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "dodge-durango-rt-real-5.jpg",
+      "alt": "Dodge Durango, exterior",
+      "tipo": "detalle",
+      "credito": "Charles from Port Chester, New York",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Dodge_Durango_SRT_Hellcat_Jailbreak_AWD_(2026)_(55208228157).jpg",
+      "width": 1600,
+      "height": 1029
+    }
+  ],
+  "volvo-xc60-b5": [
+    {
+      "archivo": "volvo-xc60-b5-real-1.jpg",
+      "alt": "Volvo XC60, exterior",
+      "tipo": "detalle",
+      "credito": "JamesYoung8167",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Volvo_XC60_Shanghai_01_2023-10-31.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "volvo-xc60-b5-real-2.jpg",
+      "alt": "Volvo XC60, de frente",
+      "tipo": "frente",
+      "credito": "Ethan Llamas",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Volvo_XC60_B5_AWD_Pine_Grey_Metallic_CN-spec_diplomatic_front_right.jpg",
+      "width": 1600,
+      "height": 1028
+    },
+    {
+      "archivo": "volvo-xc60-b5-real-3.jpg",
+      "alt": "Volvo XC60, exterior",
+      "tipo": "detalle",
+      "credito": "Dinkun Chen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:VOLVO_XC60_T8_R-DESIGN_(SPA)_China.jpg",
+      "width": 1600,
+      "height": 1096
+    },
+    {
+      "archivo": "volvo-xc60-b5-real-4.jpg",
+      "alt": "Volvo XC60, exterior",
+      "tipo": "detalle",
+      "credito": "Dinkun Chen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:VOLVO_XC60_(SPA)_China_(4).jpg",
+      "width": 1600,
+      "height": 951
+    },
+    {
+      "archivo": "volvo-xc60-b5-real-5.jpg",
+      "alt": "Volvo XC60, exterior",
+      "tipo": "detalle",
+      "credito": "Dinkun Chen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:VOLVO_XC60_(SPA)_China_(6).jpg",
+      "width": 1600,
+      "height": 824
+    },
+    {
+      "archivo": "volvo-xc60-b5-real-6.jpg",
+      "alt": "Volvo XC60, exterior",
+      "tipo": "detalle",
+      "credito": "Dinkun Chen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:VOLVO_XC60_(AU)_China_(6).jpg",
+      "width": 1600,
+      "height": 860
+    }
+  ],
+  "volvo-ex30-core": [],
+  "lexus-nx-350h": [
+    {
+      "archivo": "lexus-nx-350h-real-1.jpg",
+      "alt": "Lexus NX, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander-93",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Lexus_NX_(AZ20)_Overtrail_Auto_Zuerich_2024_DSC_6482.jpg",
+      "width": 1600,
+      "height": 1255
+    },
+    {
+      "archivo": "lexus-nx-350h-real-2.jpg",
+      "alt": "Lexus NX, de frente",
+      "tipo": "frente",
+      "credito": "Tokumeigakarinoaoshima",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Lexus_NX_200t_F_SPORT_(AGZ10)_front.JPG",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "lexus-nx-350h-real-3.jpg",
+      "alt": "Lexus NX, exterior",
+      "tipo": "detalle",
+      "credito": "Retired electrician",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Moscow,_Lexus_NX,_Aug_2025_07.jpg",
+      "width": 1600,
+      "height": 2401
+    },
+    {
+      "archivo": "lexus-nx-350h-real-4.jpg",
+      "alt": "Lexus NX, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Lexus_NX_450h%2B_(AAZH26)_Auto_Zuerich_2021_IMG_0444.jpg",
+      "width": 1600,
+      "height": 890
+    },
+    {
+      "archivo": "lexus-nx-350h-real-5.jpg",
+      "alt": "Lexus NX, exterior",
+      "tipo": "detalle",
+      "credito": "JamesYoung8167",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Lexus_NX_AZ10_Facelift_Shishi_02_2022-06-18.jpg",
+      "width": 1600,
+      "height": 990
+    },
+    {
+      "archivo": "lexus-nx-350h-real-6.jpg",
+      "alt": "Lexus NX, exterior",
+      "tipo": "detalle",
+      "credito": "JamesYoung8167",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Lexus_NX_AZ10_Facelift_Shishi_01_2022-06-18.jpg",
+      "width": 1600,
+      "height": 1023
+    }
+  ],
+  "lynk-co-01": [],
+  "zeekr-x": [
+    {
+      "archivo": "zeekr-x-real-1.jpg",
+      "alt": "Zeekr X, exterior",
+      "tipo": "detalle",
+      "credito": "Matti Blume",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Zeekr_X,_Almaty_(LRM_20240331_124050).jpg",
+      "width": 1600,
+      "height": 1198
+    },
+    {
+      "archivo": "zeekr-x-real-2.jpg",
+      "alt": "Zeekr X, de atrás",
+      "tipo": "trasera",
+      "credito": "S5A-0043",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)_Showcar_Zeekr_X_No-plate_rear_2024-09-14_-_2.jpg",
+      "width": 1600,
+      "height": 1280
+    },
+    {
+      "archivo": "zeekr-x-real-3.jpg",
+      "alt": "Zeekr X, de frente",
+      "tipo": "frente",
+      "credito": "Ethan Llamas",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2025_Zeekr_X,_front_left.jpg",
+      "width": 1600,
+      "height": 1143
+    },
+    {
+      "archivo": "zeekr-x-real-4.jpg",
+      "alt": "Zeekr X, interior",
+      "tipo": "interior",
+      "credito": "Ethan Llamas",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2025_Zeekr_X_interior.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "zeekr-x-real-5.jpg",
+      "alt": "Zeekr X, exterior",
+      "tipo": "detalle",
+      "credito": "Matti Blume",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Zeekr_X,_Almaty_(LRM_20240331_124033).jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "zeekr-x-real-6.jpg",
+      "alt": "Zeekr X, exterior",
+      "tipo": "detalle",
+      "credito": "Ssu",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Bislett_Games_2024_-_Zeekr_X.jpg",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "xpeng-g6": [],
+  "polestar-2": [
+    {
+      "archivo": "polestar-2-real-1.jpg",
+      "alt": "Polestar 2, exterior",
+      "tipo": "detalle",
+      "credito": "crudmucosa",
+      "fuente": "Wikimedia Commons · CC BY 2.0",
+      "licencia": "CC BY 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2024_Polestar_2_BST_Edition_(53518897972).jpg",
+      "width": 1600,
+      "height": 2000
+    },
+    {
+      "archivo": "polestar-2-real-2.jpg",
+      "alt": "Polestar 2, de atrás",
+      "tipo": "trasera",
+      "credito": "Liam Walker",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2020_Polestar_2_Rear.jpg",
+      "width": 1600,
+      "height": 1029
+    },
+    {
+      "archivo": "polestar-2-real-3.jpg",
+      "alt": "Polestar 2, exterior",
+      "tipo": "detalle",
+      "credito": "Retired electrician",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Moscow,_Polestar_2_white,_Feb_2026_01.jpg",
+      "width": 1600,
+      "height": 1121
+    },
+    {
+      "archivo": "polestar-2-real-4.jpg",
+      "alt": "Polestar 2, exterior",
+      "tipo": "detalle",
+      "credito": "Calreyn88",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2024_Polestar_2_BST_Edition_230.jpg",
+      "width": 1600,
+      "height": 1074
+    },
+    {
+      "archivo": "polestar-2-real-5.jpg",
+      "alt": "Polestar 2, exterior",
+      "tipo": "detalle",
+      "credito": "Calreyn88",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2024_Polestar_2_BST_Edition_270.jpg",
+      "width": 1600,
+      "height": 1101
+    }
+  ],
+  "citroen-basalt-feel": [],
+  "renault-oroch-outsider": [
+    {
+      "archivo": "renault-oroch-outsider-real-1.jpg",
+      "alt": "Renault Oroch, de perfil",
+      "tipo": "perfil",
+      "credito": "Just a Man",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2023_Renault_Oroch_Outsider_1.3_TCe_4wd.jpg",
+      "width": 1600,
+      "height": 800
+    },
+    {
+      "archivo": "renault-oroch-outsider-real-2.jpg",
+      "alt": "Renault Oroch, exterior",
+      "tipo": "detalle",
+      "credito": "Raf24~commonswiki",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Oroch,_Bariloche.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "renault-oroch-outsider-real-3.jpg",
+      "alt": "Renault Oroch, exterior",
+      "tipo": "detalle",
+      "credito": "NaBUru38",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Duster_Oroch_2016_in_Punta_del_Este_02.JPG",
+      "width": 1600,
+      "height": 1018
+    },
+    {
+      "archivo": "renault-oroch-outsider-real-4.jpg",
+      "alt": "Renault Oroch, exterior",
+      "tipo": "detalle",
+      "credito": "NaBUru38",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Duster_Oroch_2016_in_Punta_del_Este_01.JPG",
+      "width": 1600,
+      "height": 1018
+    },
+    {
+      "archivo": "renault-oroch-outsider-real-5.jpg",
+      "alt": "Renault Oroch, exterior",
+      "tipo": "detalle",
+      "credito": "RL GNZLZ from Chile",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Duster_Oroch_1.6_Zen_2018_(39788485004).jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "renault-oroch-outsider-real-6.jpg",
+      "alt": "Renault Oroch, exterior",
+      "tipo": "detalle",
+      "credito": "RL GNZLZ from Chile",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Duster_Oroch_2.0_Intens_2018_(32431308657).jpg",
+      "width": 1600,
+      "height": 900
+    }
+  ],
+  "volkswagen-nivus-gts": []
+}

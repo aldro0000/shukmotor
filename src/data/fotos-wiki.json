@@ -1,0 +1,2246 @@
+{
+  "toyota-yaris-sedan-xls": [
+    {
+      "archivo": "toyota-yaris-sedan-xls-wiki-1.jpg",
+      "alt": "Toyota Yaris Sedán, exterior",
+      "tipo": "detalle",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2002-2005_Toyota_Echo_(NCP12R)_sedan_01.jpg",
+      "width": 1600,
+      "height": 805
+    },
+    {
+      "archivo": "toyota-yaris-sedan-xls-wiki-2.jpg",
+      "alt": "Toyota Yaris Sedán, exterior",
+      "tipo": "detalle",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2008-2010_Toyota_Yaris_(NCP93R)_YRS_sedan_(2010-12-28).jpg",
+      "width": 1600,
+      "height": 849
+    },
+    {
+      "archivo": "toyota-yaris-sedan-xls-wiki-3.jpg",
+      "alt": "Toyota Yaris Sedán, exterior",
+      "tipo": "detalle",
+      "credito": "RL GNZLZ (Flickr)",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2014_Toyota_Yaris_1.5_XLi_in_Chile.jpg",
+      "width": 1600,
+      "height": 800
+    },
+    {
+      "archivo": "toyota-yaris-sedan-xls-wiki-4.jpg",
+      "alt": "Toyota Yaris Sedán, de frente",
+      "tipo": "frente",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2005_Toyota_Yaris_Verso_T_Spirit_1.3_Front.jpg",
+      "width": 1600,
+      "height": 915
+    },
+    {
+      "archivo": "toyota-yaris-sedan-xls-wiki-5.jpg",
+      "alt": "Toyota Yaris Sedán, de frente",
+      "tipo": "frente",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2000_Toyota_Yaris_GS_1.0_Front.jpg",
+      "width": 1600,
+      "height": 921
+    },
+    {
+      "archivo": "toyota-yaris-sedan-xls-wiki-6.jpg",
+      "alt": "Toyota Yaris Sedán, de frente",
+      "tipo": "frente",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2008_Toyota_Yaris_TR_1.3_Front.jpg",
+      "width": 1600,
+      "height": 841
+    }
+  ],
+  "nissan-versa-advance": [
+    {
+      "archivo": "nissan-versa-advance-wiki-3.jpg",
+      "alt": "Nissan Versa, de atrás",
+      "tipo": "trasera",
+      "credito": "TTTNIS",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Nissan_Latio_X_rear.jpg",
+      "width": 1600,
+      "height": 808
+    },
+    {
+      "archivo": "nissan-versa-advance-wiki-4.jpg",
+      "alt": "Nissan Versa, interior",
+      "tipo": "interior",
+      "credito": "TTTNIS",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Nissan_Versa_Sedan_N17_1.6SV_interior.jpg",
+      "width": 1600,
+      "height": 764
+    },
+    {
+      "archivo": "nissan-versa-advance-wiki-5.jpg",
+      "alt": "Nissan Versa, de frente",
+      "tipo": "frente",
+      "credito": "Prateek Dubey",
+      "fuente": "Wikimedia Commons · CC BY 3.0",
+      "licencia": "CC BY 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Scala_India_(front_view)_02.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "nissan-versa-advance-wiki-6.jpg",
+      "alt": "Nissan Versa, exterior",
+      "tipo": "detalle",
+      "credito": "Navigator84",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Nissan_Tiida_C12_China_2014-05-01.jpg",
+      "width": 1600,
+      "height": 1017
+    }
+  ],
+  "chevrolet-montana-ltz": [
+    {
+      "archivo": "chevrolet-montana-ltz-wiki-4.jpg",
+      "alt": "Chevrolet Montana, exterior",
+      "tipo": "detalle",
+      "credito": "RL GNZLZ",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Montana_LS_2012.jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "chevrolet-montana-ltz-wiki-5.jpg",
+      "alt": "Chevrolet Montana, exterior",
+      "tipo": "detalle",
+      "credito": "NaBUru38",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Montana_Mk3_LS_2023_in_Maldonado_03.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "chevrolet-montana-ltz-wiki-6.jpg",
+      "alt": "Chevrolet Montana, exterior",
+      "tipo": "detalle",
+      "credito": "NaBUru38",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Montana_Mk3_LS_2023_in_Maldonado_02.jpg",
+      "width": 1600,
+      "height": 1020
+    }
+  ],
+  "ram-2500-laramie": [
+    {
+      "archivo": "ram-2500-laramie-wiki-1.jpg",
+      "alt": "RAM 2500, exterior",
+      "tipo": "detalle",
+      "credito": "IFCAR",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:81-93_Dodge_Ram.jpg",
+      "width": 1600,
+      "height": 1043
+    },
+    {
+      "archivo": "ram-2500-laramie-wiki-2.jpg",
+      "alt": "RAM 2500, exterior",
+      "tipo": "detalle",
+      "credito": "IFCAR",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2009_Dodge_Ram_SLT_Big_Horn_Quad_Cab.jpg",
+      "width": 1600,
+      "height": 956
+    },
+    {
+      "archivo": "ram-2500-laramie-wiki-3.jpg",
+      "alt": "RAM 2500, exterior",
+      "tipo": "detalle",
+      "credito": "Scheinwerfermann",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:89DodgeRam_F34.jpg",
+      "width": 1600,
+      "height": 893
+    },
+    {
+      "archivo": "ram-2500-laramie-wiki-4.jpg",
+      "alt": "RAM 2500, exterior",
+      "tipo": "detalle",
+      "credito": "Dana60Cummins",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2011.5_RAM_3500_Loaded..jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "ram-2500-laramie-wiki-5.jpg",
+      "alt": "RAM 2500, exterior",
+      "tipo": "detalle",
+      "credito": "RAMvanLuke",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2014_Sherry_Vans_Red_High_Top_Conversion_Van_on_ProMaster_Chassis.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "ram-2500-laramie-wiki-6.jpg",
+      "alt": "RAM 2500, exterior",
+      "tipo": "detalle",
+      "credito": "order_242 from Chile",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Ram_2500_Laramie_Heavy_Duty_Quad_Cab_2014_(10093419036).jpg",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "suzuki-swift-glx": [
+    {
+      "archivo": "suzuki-swift-glx-wiki-2.jpg",
+      "alt": "Suzuki Swift, exterior",
+      "tipo": "detalle",
+      "credito": "Mark Hsieh",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:11_final_prototype_2.jpg",
+      "width": 1600,
+      "height": 938
+    },
+    {
+      "archivo": "suzuki-swift-glx-wiki-3.jpg",
+      "alt": "Suzuki Swift, de atrás",
+      "tipo": "trasera",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2009_Suzuki_Swift_(RS415)_5-door_hatchback_(2011-04-22).jpg",
+      "width": 1600,
+      "height": 1192
+    },
+    {
+      "archivo": "suzuki-swift-glx-wiki-4.jpg",
+      "alt": "Suzuki Swift, de atrás",
+      "tipo": "trasera",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2008_Suzuki_Swift_(RS415)_RE.3_5-door_hatchback_(2015-06-25)_01.jpg",
+      "width": 1600,
+      "height": 1070
+    },
+    {
+      "archivo": "suzuki-swift-glx-wiki-5.jpg",
+      "alt": "Suzuki Swift, de atrás",
+      "tipo": "trasera",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2008_Suzuki_Swift_(RS415)_RE.3_5-door_hatchback_(2015-06-25)_02.jpg",
+      "width": 1600,
+      "height": 1070
+    },
+    {
+      "archivo": "suzuki-swift-glx-wiki-6.jpg",
+      "alt": "Suzuki Swift, de atrás",
+      "tipo": "trasera",
+      "credito": "EurovisionNim",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2010_Suzuki_Swift_(RS415)_5-door_hatchback_(2018-10-30).jpg",
+      "width": 1600,
+      "height": 900
+    }
+  ],
+  "toyota-corolla-xli": [
+    {
+      "archivo": "toyota-corolla-xli-wiki-2.jpg",
+      "alt": "Toyota Corolla, exterior",
+      "tipo": "detalle",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1980-1983_Toyota_Corolla_(KE70)_station_wagon_02.jpg",
+      "width": 1600,
+      "height": 822
+    },
+    {
+      "archivo": "toyota-corolla-xli-wiki-3.jpg",
+      "alt": "Toyota Corolla, exterior",
+      "tipo": "detalle",
+      "credito": "Mr.choppers",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1986_Toyota_Corolla_1.6_5-door_AE82.jpg",
+      "width": 1600,
+      "height": 961
+    },
+    {
+      "archivo": "toyota-corolla-xli-wiki-4.jpg",
+      "alt": "Toyota Corolla, de atrás",
+      "tipo": "trasera",
+      "credito": "TTTNIS",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1968_Toyota_Corolla_1100_Deluxe_rear.jpg",
+      "width": 1600,
+      "height": 813
+    },
+    {
+      "archivo": "toyota-corolla-xli-wiki-5.jpg",
+      "alt": "Toyota Corolla, exterior",
+      "tipo": "detalle",
+      "credito": "TTTNIS",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1968_Toyota_Corolla_1100_Deluxe.jpg",
+      "width": 1600,
+      "height": 830
+    },
+    {
+      "archivo": "toyota-corolla-xli-wiki-6.jpg",
+      "alt": "Toyota Corolla, de atrás",
+      "tipo": "trasera",
+      "credito": "TTTNIS",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1971_Toyota_Corolla_1200_Deluxe_rear.jpg",
+      "width": 1600,
+      "height": 747
+    }
+  ],
+  "fiat-pulse-drive": [
+    {
+      "archivo": "fiat-pulse-drive-wiki-1.jpg",
+      "alt": "Fiat Pulse, exterior",
+      "tipo": "detalle",
+      "credito": "Heduardo55",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Cronos_1.8_16V_E.Torq_Precision.jpg",
+      "width": 1600,
+      "height": 899
+    },
+    {
+      "archivo": "fiat-pulse-drive-wiki-2.jpg",
+      "alt": "Fiat Pulse, exterior",
+      "tipo": "detalle",
+      "credito": "RL GNZLZ",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2022_Fiat_Pulse_1.3_Drive.jpg",
+      "width": 1600,
+      "height": 920
+    },
+    {
+      "archivo": "fiat-pulse-drive-wiki-3.jpg",
+      "alt": "Fiat Pulse, exterior",
+      "tipo": "detalle",
+      "credito": "Just a Man",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Cronos_de_Emiliano_Stang_(Fiat_Octanos_Competici%C3%B3n)._TC2000_2024_Fecha_2,_Buenos_Aires,_post_carrera.jpg",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "renault-kardian-evolution": [
+    {
+      "archivo": "renault-kardian-evolution-wiki-1.jpg",
+      "alt": "Renault Kardian, de frente",
+      "tipo": "frente",
+      "credito": "NaBUru38",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Kardian_2024_Evolution_1.0_TCe_in_Montevideo_(front)_01.jpg",
+      "width": 1600,
+      "height": 1108
+    },
+    {
+      "archivo": "renault-kardian-evolution-wiki-2.jpg",
+      "alt": "Renault Kardian, de atrás",
+      "tipo": "trasera",
+      "credito": "NaBUru38",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Renault_Kardian_2024_Evolution_1.0_TCe_in_Montevideo_(rear).jpg",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "chery-tiggo-2-pro": [
+    {
+      "archivo": "chery-tiggo-2-pro-wiki-2.jpg",
+      "alt": "Chery Tiggo 2 Pro, exterior",
+      "tipo": "detalle",
+      "credito": "Olaf Kosinsky",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0 de",
+      "licencia": "CC BY-SA 3.0 de",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2017-09-12_IAA_2017_CHERRY_by_Olaf_Kosinsky-1.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "chery-tiggo-2-pro-wiki-3.jpg",
+      "alt": "Chery Tiggo 2 Pro, exterior",
+      "tipo": "detalle",
+      "credito": "Jengtingchen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Chery_Arrizo_EX_001.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "chery-tiggo-2-pro-wiki-5.jpg",
+      "alt": "Chery Tiggo 2 Pro, exterior",
+      "tipo": "detalle",
+      "credito": "Dinkun Chen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:CHERY_EQ1.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "chery-tiggo-2-pro-wiki-6.jpg",
+      "alt": "Chery Tiggo 2 Pro, exterior",
+      "tipo": "detalle",
+      "credito": "Nico Huet",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Chery_Arrizo_8_photo1.jpg",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "byd-yuan-pro": [
+    {
+      "archivo": "byd-yuan-pro-wiki-1.jpg",
+      "alt": "BYD Yuan Pro, exterior",
+      "tipo": "detalle",
+      "credito": "Brücke-Osteuropa",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:BYD_01.JPG",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "byd-yuan-pro-wiki-2.jpg",
+      "alt": "BYD Yuan Pro, exterior",
+      "tipo": "detalle",
+      "credito": "Coen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:BYD_K11U_electric_articulated_bus_at_Elielinaukio_in_Helsinki,_Finland,_2021_November.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "byd-yuan-pro-wiki-3.jpg",
+      "alt": "BYD Yuan Pro, de frente",
+      "tipo": "frente",
+      "credito": "User 3204",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2020_BYD_Han_EV_front.jpg",
+      "width": 1600,
+      "height": 836
+    },
+    {
+      "archivo": "byd-yuan-pro-wiki-4.jpg",
+      "alt": "BYD Yuan Pro, exterior",
+      "tipo": "detalle",
+      "credito": "Matti Blume",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:BYD,_IAA_Summit_2023,_Munich_(P1110793).jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "byd-yuan-pro-wiki-5.jpg",
+      "alt": "BYD Yuan Pro, de frente",
+      "tipo": "frente",
+      "credito": "User 3204",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2023_%D0%92YD_Seagull_(front).jpg",
+      "width": 1600,
+      "height": 968
+    }
+  ],
+  "mg-4-electrico": [
+    {
+      "archivo": "mg-4-electrico-wiki-1.jpg",
+      "alt": "MG MG4, exterior",
+      "tipo": "detalle",
+      "credito": "Bull-Doser",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:%2757_MG_MGA_Coupe_(Hudson).JPG",
+      "width": 1600,
+      "height": 887
+    },
+    {
+      "archivo": "mg-4-electrico-wiki-3.jpg",
+      "alt": "MG MG4, de frente",
+      "tipo": "frente",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2018_MG_ZS_Exclusive_1.5_Front.jpg",
+      "width": 1600,
+      "height": 1076
+    },
+    {
+      "archivo": "mg-4-electrico-wiki-4.jpg",
+      "alt": "MG MG4, de frente",
+      "tipo": "frente",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2018_MG_3_facelift_1.5_Front_(1).jpg",
+      "width": 1600,
+      "height": 1111
+    },
+    {
+      "archivo": "mg-4-electrico-wiki-5.jpg",
+      "alt": "MG MG4, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:MG4_EV_Automesse_Ludwigsburg_2022_1X7A5870.jpg",
+      "width": 1600,
+      "height": 861
+    },
+    {
+      "archivo": "mg-4-electrico-wiki-6.jpg",
+      "alt": "MG MG4, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:MG4_EV_Automesse_Ludwigsburg_2022_1X7A5871.jpg",
+      "width": 1600,
+      "height": 907
+    }
+  ],
+  "ford-bronco-sport-big-bend": [
+    {
+      "archivo": "ford-bronco-sport-big-bend-wiki-2.jpg",
+      "alt": "Ford Bronco Sport, exterior",
+      "tipo": "detalle",
+      "credito": "Greg Gjerdingen from Willmar, USA",
+      "fuente": "Wikimedia Commons · CC BY 2.0",
+      "licencia": "CC BY 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1975_Ford_Bronco;_Annandale,_MN_(28396973647).jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "ford-bronco-sport-big-bend-wiki-3.jpg",
+      "alt": "Ford Bronco Sport, de frente",
+      "tipo": "frente",
+      "credito": "SsmIntrigue",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2021_Ford_Bronco_Sport_Outer_Banks,_Front_Left,_01-17-2021.jpg",
+      "width": 1600,
+      "height": 797
+    },
+    {
+      "archivo": "ford-bronco-sport-big-bend-wiki-4.jpg",
+      "alt": "Ford Bronco Sport, de frente",
+      "tipo": "frente",
+      "credito": "Kevauto",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2021_Ford_Bronco_Sport_Big_Bend,_front_3.15.21.jpg",
+      "width": 1600,
+      "height": 1049
+    },
+    {
+      "archivo": "ford-bronco-sport-big-bend-wiki-5.jpg",
+      "alt": "Ford Bronco Sport, de atrás",
+      "tipo": "trasera",
+      "credito": "Kevauto",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2021_Ford_Bronco_Sport_Big_Bend,_rear_3.15.21.jpg",
+      "width": 1600,
+      "height": 1075
+    },
+    {
+      "archivo": "ford-bronco-sport-big-bend-wiki-6.jpg",
+      "alt": "Ford Bronco Sport, de frente",
+      "tipo": "frente",
+      "credito": "Elise240SX",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2021_Ford_Bronco_Sport_Badlands,_Front_Left,_10-10-2021.jpg",
+      "width": 1600,
+      "height": 1007
+    }
+  ],
+  "toyota-sw4-srx": [
+    {
+      "archivo": "toyota-sw4-srx-wiki-1.jpg",
+      "alt": "Toyota SW4, exterior",
+      "tipo": "detalle",
+      "credito": "Biology9",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_SW4_-_2012_-_2.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "toyota-sw4-srx-wiki-2.jpg",
+      "alt": "Toyota SW4, exterior",
+      "tipo": "detalle",
+      "credito": "Aero777",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.5 my",
+      "licencia": "CC BY-SA 2.5 my",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2008%E2%80%932011_Toyota_Kijang_Innova_2.0G_in_Kuta,_Bali,_Indonesia_(01).jpg",
+      "width": 1600,
+      "height": 817
+    },
+    {
+      "archivo": "toyota-sw4-srx-wiki-5.jpg",
+      "alt": "Toyota SW4, exterior",
+      "tipo": "detalle",
+      "credito": "オーバードライブ83",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2009_Toyota_Kijang_Innova_2.0_G_TGN40R_(190316).jpg",
+      "width": 1600,
+      "height": 808
+    },
+    {
+      "archivo": "toyota-sw4-srx-wiki-6.jpg",
+      "alt": "Toyota SW4, exterior",
+      "tipo": "detalle",
+      "credito": "オーバードライブ83",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2014_Toyota_Kijang_Innova_2.0_G_TGN40R_(190316).jpg",
+      "width": 1600,
+      "height": 841
+    }
+  ],
+  "ford-maverick-lariat": [
+    {
+      "archivo": "ford-maverick-lariat-wiki-1.jpg",
+      "alt": "Ford Maverick, de atrás",
+      "tipo": "trasera",
+      "credito": "dave_7",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:FordMaverick-rear.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "ford-maverick-lariat-wiki-2.jpg",
+      "alt": "Ford Maverick, exterior",
+      "tipo": "detalle",
+      "credito": "IFCAR",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Ford-Maverick-Grabber.jpg",
+      "width": 1600,
+      "height": 839
+    },
+    {
+      "archivo": "ford-maverick-lariat-wiki-4.jpg",
+      "alt": "Ford Maverick, exterior",
+      "tipo": "detalle",
+      "credito": "Sicnag",
+      "fuente": "Wikimedia Commons · CC BY 2.0",
+      "licencia": "CC BY 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1972_Ford_Maverick_Coupe.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "ford-maverick-lariat-wiki-5.jpg",
+      "alt": "Ford Maverick, exterior",
+      "tipo": "detalle",
+      "credito": "dave_7 from Lethbridge, Canada",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Maverick_Grabber_(2482172338).jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "ford-maverick-lariat-wiki-6.jpg",
+      "alt": "Ford Maverick, exterior",
+      "tipo": "detalle",
+      "credito": "Mizalrodriguezmendez",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Ford_maverick.jpg",
+      "width": 1600,
+      "height": 1003
+    }
+  ],
+  "toyota-hilux-dx": [
+    {
+      "archivo": "toyota-hilux-dx-wiki-4.jpg",
+      "alt": "Toyota Hilux, exterior",
+      "tipo": "detalle",
+      "credito": "Papphase",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Hilux_ThyoloRoad.JPG",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "toyota-hilux-dx-wiki-5.jpg",
+      "alt": "Toyota Hilux, exterior",
+      "tipo": "detalle",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2010_Toyota_Hilux_(GGN25R)_SR_4-door_utility_(2011-11-30)_01.jpg",
+      "width": 1600,
+      "height": 924
+    }
+  ],
+  "volkswagen-amarok-v6-extreme": [
+    {
+      "archivo": "volkswagen-amarok-v6-extreme-wiki-2.jpg",
+      "alt": "Volkswagen Amarok, exterior",
+      "tipo": "detalle",
+      "credito": "El monty",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:VW_Amarok.JPG",
+      "width": 1600,
+      "height": 1086
+    },
+    {
+      "archivo": "volkswagen-amarok-v6-extreme-wiki-5.jpg",
+      "alt": "Volkswagen Amarok, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander-93",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Amarok_Mk2_Auto_Zuerich_2023_1X7A1337.jpg",
+      "width": 1600,
+      "height": 1068
+    }
+  ],
+  "jac-t8-plus": [
+    {
+      "archivo": "jac-t8-plus-wiki-1.jpg",
+      "alt": "JAC T8 Plus, exterior",
+      "tipo": "detalle",
+      "credito": "User3204",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2018_JAC_Shuailing_T6.jpg",
+      "width": 1600,
+      "height": 905
+    },
+    {
+      "archivo": "jac-t8-plus-wiki-2.jpg",
+      "alt": "JAC T8 Plus, exterior",
+      "tipo": "detalle",
+      "credito": "Jason Lawrence",
+      "fuente": "Wikimedia Commons · CC BY 2.0",
+      "licencia": "CC BY 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:JAC_Frison.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "jac-t8-plus-wiki-3.jpg",
+      "alt": "JAC T8 Plus, exterior",
+      "tipo": "detalle",
+      "credito": "Quzhouliulian",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:JAC_Hunter_IMG02.jpg",
+      "width": 1600,
+      "height": 1203
+    },
+    {
+      "archivo": "jac-t8-plus-wiki-4.jpg",
+      "alt": "JAC T8 Plus, exterior",
+      "tipo": "detalle",
+      "credito": "قندون",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:KMC_T8_01_2023-09-01.jpg",
+      "width": 1600,
+      "height": 1057
+    },
+    {
+      "archivo": "jac-t8-plus-wiki-5.jpg",
+      "alt": "JAC T8 Plus, exterior",
+      "tipo": "detalle",
+      "credito": "JustAnotherCarDesigner",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:JAC_Hunter_EV_001.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "jac-t8-plus-wiki-6.jpg",
+      "alt": "JAC T8 Plus, exterior",
+      "tipo": "detalle",
+      "credito": "JustAnotherCarDesigner",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:JAC_Hunter_EV_002.jpg",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "dongfeng-rich-6": [
+    {
+      "archivo": "dongfeng-rich-6-wiki-1.jpg",
+      "alt": "Dongfeng Rich 6, exterior",
+      "tipo": "detalle",
+      "credito": "Stag1500 at English Wikipedia ( Original text: Michael Sullivan )",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:AR15_A3_Tactical_Carbine_pic1.jpg",
+      "width": 1600,
+      "height": 780
+    },
+    {
+      "archivo": "dongfeng-rich-6-wiki-3.jpg",
+      "alt": "Dongfeng Rich 6, exterior",
+      "tipo": "detalle",
+      "credito": "TheTranc at English Wikipedia",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Akdal_MKA-1919.JPG",
+      "width": 1600,
+      "height": 771
+    },
+    {
+      "archivo": "dongfeng-rich-6-wiki-4.jpg",
+      "alt": "Dongfeng Rich 6, exterior",
+      "tipo": "detalle",
+      "credito": "Vitaly V. Kuzmin",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:ARMS_%26_Hunting_2012_exhibition_(474-17).jpg",
+      "width": 1600,
+      "height": 1031
+    },
+    {
+      "archivo": "dongfeng-rich-6-wiki-5.jpg",
+      "alt": "Dongfeng Rich 6, exterior",
+      "tipo": "detalle",
+      "credito": "Vitaly V. Kuzmin",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:ARMS_%26_Hunting_2012_exhibition_(474-23).jpg",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "peugeot-partner-confort": [
+    {
+      "archivo": "peugeot-partner-confort-wiki-1.jpg",
+      "alt": "Peugeot Partner, exterior",
+      "tipo": "detalle",
+      "credito": "Norbert Aepli, Switzerland ( User:Noebu )",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2015-03-03_Geneva_Motor_Show_3664.JPG",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "peugeot-partner-confort-wiki-2.jpg",
+      "alt": "Peugeot Partner, exterior",
+      "tipo": "detalle",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1999_Citro%C3%ABn_Berlingo_(M59)_van_(2015-07-03).jpg",
+      "width": 1600,
+      "height": 1070
+    },
+    {
+      "archivo": "peugeot-partner-confort-wiki-3.jpg",
+      "alt": "Peugeot Partner, exterior",
+      "tipo": "detalle",
+      "credito": "Jeremy from Sydney, Australia",
+      "fuente": "Wikimedia Commons · CC BY 2.0",
+      "licencia": "CC BY 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2005_Citro%C3%ABn_Berlingo_(M59_Series_II)_van_(22082762158).jpg",
+      "width": 1600,
+      "height": 931
+    },
+    {
+      "archivo": "peugeot-partner-confort-wiki-4.jpg",
+      "alt": "Peugeot Partner, de frente",
+      "tipo": "frente",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2007_Peugeot_Partner_L600_1.6_Front.jpg",
+      "width": 1600,
+      "height": 889
+    },
+    {
+      "archivo": "peugeot-partner-confort-wiki-5.jpg",
+      "alt": "Peugeot Partner, de atrás",
+      "tipo": "trasera",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2007_Peugeot_Partner_L600_1.6_Rear.jpg",
+      "width": 1600,
+      "height": 941
+    },
+    {
+      "archivo": "peugeot-partner-confort-wiki-6.jpg",
+      "alt": "Peugeot Partner, de atrás",
+      "tipo": "trasera",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2000_Citroen_Berlingo_1.9_Rear.jpg",
+      "width": 1600,
+      "height": 894
+    }
+  ],
+  "alfa-romeo-tonale": [
+    {
+      "archivo": "alfa-romeo-tonale-wiki-2.jpg",
+      "alt": "Alfa Romeo Tonale, exterior",
+      "tipo": "detalle",
+      "credito": "Simon Davison from Los Gatos, United States",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1938_Alfa_Romeo_8C_2900_Mille_Miglia_34_3.jpg",
+      "width": 1600,
+      "height": 922
+    },
+    {
+      "archivo": "alfa-romeo-tonale-wiki-3.jpg",
+      "alt": "Alfa Romeo Tonale, de atrás",
+      "tipo": "trasera",
+      "credito": "No machine-readable author provided. Sfoskett~commonswiki assumed (based on copyright claims).",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1938_Alfa_Romeo_8C_2900_Mille_Miglia_rear.jpg",
+      "width": 1600,
+      "height": 920
+    },
+    {
+      "archivo": "alfa-romeo-tonale-wiki-4.jpg",
+      "alt": "Alfa Romeo Tonale, exterior",
+      "tipo": "detalle",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2017_Alfa_Romeo_Stelvio_Milano_Edizione_TD_Automatic_2.1.jpg",
+      "width": 1600,
+      "height": 946
+    },
+    {
+      "archivo": "alfa-romeo-tonale-wiki-5.jpg",
+      "alt": "Alfa Romeo Tonale, exterior",
+      "tipo": "detalle",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2017_Alfa_Romeo_Giulia_V6_Biturbo_Quadrifoglio_2.9.jpg",
+      "width": 1600,
+      "height": 903
+    },
+    {
+      "archivo": "alfa-romeo-tonale-wiki-6.jpg",
+      "alt": "Alfa Romeo Tonale, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_Tonale_1X7A0004.jpg",
+      "width": 1600,
+      "height": 1068
+    }
+  ],
+  "audi-a3-sportback": [
+    {
+      "archivo": "audi-a3-sportback-wiki-1.jpg",
+      "alt": "Audi A3 Sportback, de atrás",
+      "tipo": "trasera",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1999-2000_Audi_A3_(8L)_1.8_5-door_hatchback_01.jpg",
+      "width": 1600,
+      "height": 797
+    },
+    {
+      "archivo": "audi-a3-sportback-wiki-2.jpg",
+      "alt": "Audi A3 Sportback, exterior",
+      "tipo": "detalle",
+      "credito": "Thesupermat",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Audi_-_S3_-_Mondial_de_l%27Automobile_de_Paris_2012_-_202.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "audi-a3-sportback-wiki-4.jpg",
+      "alt": "Audi A3 Sportback, exterior",
+      "tipo": "detalle",
+      "credito": "Kickaffe (Mario von Berg)",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2013_Audi_S3_Limousine_8VS_2.0_TFSI_S_tronic_quattro_Daytonagrau-Perleffekt_Heckansicht.jpg",
+      "width": 1600,
+      "height": 1022
+    },
+    {
+      "archivo": "audi-a3-sportback-wiki-5.jpg",
+      "alt": "Audi A3 Sportback, de atrás",
+      "tipo": "trasera",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2000_Audi_S3_(8L)_quattro_3-door_hatchback_(2015-05-29)_01.jpg",
+      "width": 1600,
+      "height": 1202
+    },
+    {
+      "archivo": "audi-a3-sportback-wiki-6.jpg",
+      "alt": "Audi A3 Sportback, de atrás",
+      "tipo": "trasera",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2000_Audi_S3_(8L)_quattro_3-door_hatchback_(2015-05-29)_02.jpg",
+      "width": 1600,
+      "height": 1202
+    }
+  ],
+  "bmw-320i": [
+    {
+      "archivo": "bmw-320i-wiki-1.jpg",
+      "alt": "BMW Serie 3, exterior",
+      "tipo": "detalle",
+      "credito": "IFCAR",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:BMW-E36-sedan.jpg",
+      "width": 1600,
+      "height": 883
+    },
+    {
+      "archivo": "bmw-320i-wiki-2.jpg",
+      "alt": "BMW Serie 3, exterior",
+      "tipo": "detalle",
+      "credito": "IFCAR",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:BMW-E30-coupe.jpg",
+      "width": 1600,
+      "height": 719
+    },
+    {
+      "archivo": "bmw-320i-wiki-3.jpg",
+      "alt": "BMW Serie 3, exterior",
+      "tipo": "detalle",
+      "credito": "IFCAR",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1998-2001_BMW_328i_sedan.jpg",
+      "width": 1600,
+      "height": 950
+    },
+    {
+      "archivo": "bmw-320i-wiki-4.jpg",
+      "alt": "BMW Serie 3, exterior",
+      "tipo": "detalle",
+      "credito": "HLW",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:BMW_328i_F30_2012_vl.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "bmw-320i-wiki-5.jpg",
+      "alt": "BMW Serie 3, de frente",
+      "tipo": "frente",
+      "credito": "M 93",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0 de",
+      "licencia": "CC BY-SA 3.0 de",
+      "pagina": "https://commons.wikimedia.org/wiki/File:BMW_320d_Sport_Line_(F30)_%E2%80%93_Frontansicht,_26._Februar_2012,_W%C3%BClfrath.jpg",
+      "width": 1600,
+      "height": 879
+    },
+    {
+      "archivo": "bmw-320i-wiki-6.jpg",
+      "alt": "BMW Serie 3, exterior",
+      "tipo": "detalle",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2004_BMW_325Ci_(E46_MY04)_coupe_(2015-07-24)_01.jpg",
+      "width": 1600,
+      "height": 1070
+    }
+  ],
+  "mercedes-clase-a-200": [
+    {
+      "archivo": "mercedes-clase-a-200-wiki-2.jpg",
+      "alt": "Mercedes-Benz Clase A, exterior",
+      "tipo": "detalle",
+      "credito": "IFCAR",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W164.jpg",
+      "width": 1600,
+      "height": 918
+    },
+    {
+      "archivo": "mercedes-clase-a-200-wiki-3.jpg",
+      "alt": "Mercedes-Benz Clase A, de frente",
+      "tipo": "frente",
+      "credito": "M 93",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0 de",
+      "licencia": "CC BY-SA 3.0 de",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_ML_250_BlueTEC_(W_166)_%E2%80%93_Frontansicht,_26._Februar_2012,_Velbert.jpg",
+      "width": 1600,
+      "height": 934
+    },
+    {
+      "archivo": "mercedes-clase-a-200-wiki-4.jpg",
+      "alt": "Mercedes-Benz Clase A, de frente",
+      "tipo": "frente",
+      "credito": "M 93",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0 de",
+      "licencia": "CC BY-SA 3.0 de",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_A_250_BlueEFFICIENCY_AMG_Sport_(W_176)_%E2%80%93_Frontansicht,_17._September_2012,_D%C3%BCsseldorf.jpg",
+      "width": 1600,
+      "height": 779
+    },
+    {
+      "archivo": "mercedes-clase-a-200-wiki-5.jpg",
+      "alt": "Mercedes-Benz Clase A, exterior",
+      "tipo": "detalle",
+      "credito": "EurovisionNim",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2015_Mercedes-Benz_ML_250_(W_166_MY15)_BlueTEC_wagon_(2015-09-16)_01.jpg",
+      "width": 1600,
+      "height": 1247
+    },
+    {
+      "archivo": "mercedes-clase-a-200-wiki-6.jpg",
+      "alt": "Mercedes-Benz Clase A, de frente",
+      "tipo": "frente",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2018_Mercedes-Benz_A200_AMG_Line_Premium%2B_1.3_Front.jpg",
+      "width": 1600,
+      "height": 821
+    }
+  ],
+  "ford-kuga-hybrid": [
+    {
+      "archivo": "ford-kuga-hybrid-wiki-1.jpg",
+      "alt": "Ford Kuga, exterior",
+      "tipo": "detalle",
+      "credito": "Ton1~commonswiki",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:FordIosisX_6.JPG",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "ford-kuga-hybrid-wiki-2.jpg",
+      "alt": "Ford Kuga, de frente",
+      "tipo": "frente",
+      "credito": "No machine-readable author provided. M 93 assumed (based on copyright claims).",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Kuga_(seit_2008)_2.0_TDCi_front_MJ.JPG",
+      "width": 1600,
+      "height": 1102
+    },
+    {
+      "archivo": "ford-kuga-hybrid-wiki-3.jpg",
+      "alt": "Ford Kuga, de atrás",
+      "tipo": "trasera",
+      "credito": "No machine-readable author provided. M 93 assumed (based on copyright claims).",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Ford_Kuga_(seit_2008)_2.0_TDCi_rear_MJ.JPG",
+      "width": 1600,
+      "height": 1114
+    },
+    {
+      "archivo": "ford-kuga-hybrid-wiki-4.jpg",
+      "alt": "Ford Kuga, de frente",
+      "tipo": "frente",
+      "credito": "Cha già José from Vienna, Austria",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Ford_iasisX_(front)_-_Flickr_-_Cha_gi%C3%A0_Jos%C3%A9.jpg",
+      "width": 1600,
+      "height": 1064
+    },
+    {
+      "archivo": "ford-kuga-hybrid-wiki-5.jpg",
+      "alt": "Ford Kuga, exterior",
+      "tipo": "detalle",
+      "credito": "Cha già José from Vienna, Austria",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Ford_iasisX_(wheel)_-_Flickr_-_Cha_gi%C3%A0_Jos%C3%A9.jpg",
+      "width": 1600,
+      "height": 1064
+    },
+    {
+      "archivo": "ford-kuga-hybrid-wiki-6.jpg",
+      "alt": "Ford Kuga, de atrás",
+      "tipo": "trasera",
+      "credito": "Cha già José from Vienna, Austria",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Ford_iasisX_(rear)_-_Flickr_-_Cha_gi%C3%A0_Jos%C3%A9.jpg",
+      "width": 1600,
+      "height": 1064
+    }
+  ],
+  "nissan-x-trail-e-power": [
+    {
+      "archivo": "nissan-x-trail-e-power-wiki-1.jpg",
+      "alt": "Nissan X-Trail, de atrás",
+      "tipo": "trasera",
+      "credito": "TTTNIS",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2003-2007_NISSAN_X-TRAIL_Rider_rear.jpg",
+      "width": 1600,
+      "height": 800
+    },
+    {
+      "archivo": "nissan-x-trail-e-power-wiki-2.jpg",
+      "alt": "Nissan X-Trail, exterior",
+      "tipo": "detalle",
+      "credito": "TTTNIS",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2000-2003_NISSAN_X-TRAIL.jpg",
+      "width": 1600,
+      "height": 773
+    },
+    {
+      "archivo": "nissan-x-trail-e-power-wiki-3.jpg",
+      "alt": "Nissan X-Trail, exterior",
+      "tipo": "detalle",
+      "credito": "EurovisionNim",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2013_Nissan_X-Trail_(T31)_ST_wagon_(2014-12-23)_01.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "nissan-x-trail-e-power-wiki-4.jpg",
+      "alt": "Nissan X-Trail, exterior",
+      "tipo": "detalle",
+      "credito": "EurovisionNim",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2013_Nissan_X-Trail_(T31)_ST_wagon_(2014-12-23)_02.jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "nissan-x-trail-e-power-wiki-5.jpg",
+      "alt": "Nissan X-Trail, exterior",
+      "tipo": "detalle",
+      "credito": "EurovisionNim",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2015_Nissan_X-Trail_(T32)_ST-L_2WD_wagon_(2017-01-15)_02.jpg",
+      "width": 1600,
+      "height": 954
+    },
+    {
+      "archivo": "nissan-x-trail-e-power-wiki-6.jpg",
+      "alt": "Nissan X-Trail, exterior",
+      "tipo": "detalle",
+      "credito": "EurovisionNim",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2015_Nissan_X-Trail_(T32)_ST-L_2WD_wagon_(2017-01-15)_01.jpg",
+      "width": 1600,
+      "height": 763
+    }
+  ],
+  "baic-bj40-plus": [
+    {
+      "archivo": "baic-bj40-plus-wiki-2.jpg",
+      "alt": "Baic BJ40 Plus, de frente",
+      "tipo": "frente",
+      "credito": "Kevauto",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:BAIC_Weiwang_(%E5%A8%81%E6%97%BA)_205_front_8.10.19.jpg",
+      "width": 1600,
+      "height": 1123
+    },
+    {
+      "archivo": "baic-bj40-plus-wiki-3.jpg",
+      "alt": "Baic BJ40 Plus, exterior",
+      "tipo": "detalle",
+      "credito": "N509FZ",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:40214682_at_Xiyuan_(20191125105959).jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "baic-bj40-plus-wiki-4.jpg",
+      "alt": "Baic BJ40 Plus, exterior",
+      "tipo": "detalle",
+      "credito": "JustAnotherCarDesigner",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Arcfox_%CE%B1-S_001.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "baic-bj40-plus-wiki-5.jpg",
+      "alt": "Baic BJ40 Plus, exterior",
+      "tipo": "detalle",
+      "credito": "JustAnotherCarDesigner",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Beijing_BJ30_001.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "baic-bj40-plus-wiki-6.jpg",
+      "alt": "Baic BJ40 Plus, exterior",
+      "tipo": "detalle",
+      "credito": "Anonymousfox36",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Arcfox_Alpha-T_IMG001.jpg",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "changan-uni-t": [
+    {
+      "archivo": "changan-uni-t-wiki-1.jpg",
+      "alt": "Changan Uni-T, exterior",
+      "tipo": "detalle",
+      "credito": "User 3204",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2016_Chana_F30.jpg",
+      "width": 1600,
+      "height": 1018
+    },
+    {
+      "archivo": "changan-uni-t-wiki-2.jpg",
+      "alt": "Changan Uni-T, de frente",
+      "tipo": "frente",
+      "credito": "Kevauto",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2014_Chang%27an_(Chana)_Eulove,_front_8.6.18.jpg",
+      "width": 1600,
+      "height": 944
+    },
+    {
+      "archivo": "changan-uni-t-wiki-3.jpg",
+      "alt": "Changan Uni-T, de frente",
+      "tipo": "frente",
+      "credito": "Kevauto",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2018_Chang%27an-Kuayue_Kuayuewang_X5,_front_8.16.18.jpg",
+      "width": 1600,
+      "height": 1056
+    },
+    {
+      "archivo": "changan-uni-t-wiki-4.jpg",
+      "alt": "Changan Uni-T, de frente",
+      "tipo": "frente",
+      "credito": "Kevauto",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2016_Chang%27an-Kuayue_Kuayuewang_X5_(pre-facelift)_box_truck,_front_8.12.18.jpg",
+      "width": 1600,
+      "height": 1371
+    },
+    {
+      "archivo": "changan-uni-t-wiki-5.jpg",
+      "alt": "Changan Uni-T, de frente",
+      "tipo": "frente",
+      "credito": "Kevauto",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2015_Chang%27an-Kuayue_Xinbao_mini_(pre-facelift),_front_8.12.18.jpg",
+      "width": 1600,
+      "height": 1004
+    },
+    {
+      "archivo": "changan-uni-t-wiki-6.jpg",
+      "alt": "Changan Uni-T, de frente",
+      "tipo": "frente",
+      "credito": "Kevauto",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2018_Chang%27an-Kuayue_Xinbao_(double_cab),_front_8.7.18.jpg",
+      "width": 1600,
+      "height": 1198
+    }
+  ],
+  "foton-view-cs2": [
+    {
+      "archivo": "foton-view-cs2-wiki-2.jpg",
+      "alt": "Foton View CS2, exterior",
+      "tipo": "detalle",
+      "credito": "Raf24~commonswiki",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Foton,_Cienfuegos.jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "foton-view-cs2-wiki-3.jpg",
+      "alt": "Foton View CS2, exterior",
+      "tipo": "detalle",
+      "credito": "Jengtingchen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Foton_View_002.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "foton-view-cs2-wiki-4.jpg",
+      "alt": "Foton View CS2, exterior",
+      "tipo": "detalle",
+      "credito": "Jengtingchen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Foton_View_004.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "foton-view-cs2-wiki-5.jpg",
+      "alt": "Foton View CS2, exterior",
+      "tipo": "detalle",
+      "credito": "Jengtingchen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Foton_View_001.jpg",
+      "width": 1600,
+      "height": 1199
+    },
+    {
+      "archivo": "foton-view-cs2-wiki-6.jpg",
+      "alt": "Foton View CS2, exterior",
+      "tipo": "detalle",
+      "credito": "Jengtingchen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Foton_View_005.jpg",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "volvo-xc40-b4": [
+    {
+      "archivo": "volvo-xc40-b4-wiki-1.jpg",
+      "alt": "Volvo XC40, exterior",
+      "tipo": "detalle",
+      "credito": "Jengtingchen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Lynk_%26_Co_02.jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "volvo-xc40-b4-wiki-2.jpg",
+      "alt": "Volvo XC40, exterior",
+      "tipo": "detalle",
+      "credito": "Jengtingchen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Geely_Xingyue_004.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "volvo-xc40-b4-wiki-3.jpg",
+      "alt": "Volvo XC40, de frente",
+      "tipo": "frente",
+      "credito": "User 3204",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2017_Lynk_%26_Co_01_(front).jpg",
+      "width": 1600,
+      "height": 1135
+    },
+    {
+      "archivo": "volvo-xc40-b4-wiki-4.jpg",
+      "alt": "Volvo XC40, exterior",
+      "tipo": "detalle",
+      "credito": "Jengtingchen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Geely_Preface_008.jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "volvo-xc40-b4-wiki-5.jpg",
+      "alt": "Volvo XC40, exterior",
+      "tipo": "detalle",
+      "credito": "Jengtingchen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Lynk_%26_Co_05_006.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "volvo-xc40-b4-wiki-6.jpg",
+      "alt": "Volvo XC40, exterior",
+      "tipo": "detalle",
+      "credito": "Jengtingchen",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Lynk_%26_Co_03_003.jpg",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "alfa-romeo-giulia": [
+    {
+      "archivo": "alfa-romeo-giulia-wiki-2.jpg",
+      "alt": "Alfa Romeo Giulia, exterior",
+      "tipo": "detalle",
+      "credito": "Pava, Milano (from IT.WIKI)",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0 it",
+      "licencia": "CC BY-SA 3.0 it",
+      "pagina": "https://commons.wikimedia.org/wiki/File:15-07-11_Arese_(MI)_Alfa_Romeo_Giulia_QV_(2015)_pre-series_at_Museo_Storico_Alfa_Romeo_01.jpg",
+      "width": 1600,
+      "height": 569
+    },
+    {
+      "archivo": "alfa-romeo-giulia-wiki-3.jpg",
+      "alt": "Alfa Romeo Giulia, exterior",
+      "tipo": "detalle",
+      "credito": "Pava, Milano ( from IT WIKI )",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0 it",
+      "licencia": "CC BY-SA 3.0 it",
+      "pagina": "https://commons.wikimedia.org/wiki/File:%22_15_-_ITALY_-_Alfa_Romeo_Giulia_QV_bianca_Museo_Storico_Alfa_Romeo_ad_Arese_105_years_of_Alfa_Romeo_02.jpg",
+      "width": 1600,
+      "height": 812
+    },
+    {
+      "archivo": "alfa-romeo-giulia-wiki-5.jpg",
+      "alt": "Alfa Romeo Giulia, de atrás",
+      "tipo": "trasera",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2017_Alfa_Romeo_Giulia_Speciale_TD_Automatic_2.1_Rear.jpg",
+      "width": 1600,
+      "height": 720
+    },
+    {
+      "archivo": "alfa-romeo-giulia-wiki-6.jpg",
+      "alt": "Alfa Romeo Giulia, exterior",
+      "tipo": "detalle",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2017_Alfa_Romeo_Giulia_V6_Biturbo_Quadrifoglio_2.9.jpg",
+      "width": 1600,
+      "height": 903
+    }
+  ],
+  "toyota-land-cruiser-prado-vx": [
+    {
+      "archivo": "toyota-land-cruiser-prado-vx-wiki-1.jpg",
+      "alt": "Toyota Land Cruiser Prado, exterior",
+      "tipo": "detalle",
+      "credito": "Mytho88",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1996_Toyota_Land_Cruiser-Prado_01.jpg",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "archivo": "toyota-land-cruiser-prado-vx-wiki-3.jpg",
+      "alt": "Toyota Land Cruiser Prado, exterior",
+      "tipo": "detalle",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2007_Toyota_Land_Cruiser_Prado_(GRJ120R)_GXL_wagon_(2011-04-22).jpg",
+      "width": 1600,
+      "height": 1049
+    },
+    {
+      "archivo": "toyota-land-cruiser-prado-vx-wiki-4.jpg",
+      "alt": "Toyota Land Cruiser Prado, exterior",
+      "tipo": "detalle",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1998_Toyota_Land_Cruiser_Prado_(VZJ95R)_VX_Grande_5-door_wagon_(2011-06-15)_02.jpg",
+      "width": 1600,
+      "height": 983
+    },
+    {
+      "archivo": "toyota-land-cruiser-prado-vx-wiki-5.jpg",
+      "alt": "Toyota Land Cruiser Prado, exterior",
+      "tipo": "detalle",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2013_Toyota_Land_Cruiser_Prado_(KDJ150R_MY13)_Altitude_5-door_wagon_(2015-07-09)_01.jpg",
+      "width": 1600,
+      "height": 943
+    },
+    {
+      "archivo": "toyota-land-cruiser-prado-vx-wiki-6.jpg",
+      "alt": "Toyota Land Cruiser Prado, exterior",
+      "tipo": "detalle",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2009_Toyota_Land_Cruiser_Prado_(KDJ155R)_SX_3-door_wagon_(2015-11-11)_02.jpg",
+      "width": 1600,
+      "height": 1070
+    }
+  ],
+  "ford-ranger-limited": [
+    {
+      "archivo": "ford-ranger-limited-wiki-2.jpg",
+      "alt": "Ford Ranger, exterior",
+      "tipo": "detalle",
+      "credito": "IFCAR",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2001-2003_Ford_Ranger.jpg",
+      "width": 1600,
+      "height": 896
+    },
+    {
+      "archivo": "ford-ranger-limited-wiki-3.jpg",
+      "alt": "Ford Ranger, exterior",
+      "tipo": "detalle",
+      "credito": "Bull-Doser",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:%2791-%2794_Ford_Explorer.jpg",
+      "width": 1600,
+      "height": 1028
+    },
+    {
+      "archivo": "ford-ranger-limited-wiki-4.jpg",
+      "alt": "Ford Ranger, exterior",
+      "tipo": "detalle",
+      "credito": "Bull-Doser",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:%2798-%2701_Mazda_B4000_V6_Extended_Cab.JPG",
+      "width": 1600,
+      "height": 976
+    },
+    {
+      "archivo": "ford-ranger-limited-wiki-5.jpg",
+      "alt": "Ford Ranger, exterior",
+      "tipo": "detalle",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2010_Ford_Ranger_(T6)_4-door_utility,_prototype_(2010-10-16)_01.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "ford-ranger-limited-wiki-6.jpg",
+      "alt": "Ford Ranger, exterior",
+      "tipo": "detalle",
+      "credito": "https://www.flickr.com/people/sicarr/",
+      "fuente": "Wikimedia Commons · CC BY 2.0",
+      "licencia": "CC BY 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1988_Ford_Ranger.jpg",
+      "width": 1600,
+      "height": 1065
+    }
+  ],
+  "ford-mustang-gt": [
+    {
+      "archivo": "ford-mustang-gt-wiki-1.jpg",
+      "alt": "Ford Mustang, exterior",
+      "tipo": "detalle",
+      "credito": "Kroelleboelle",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1965_Ford_Mustang_2D_Hardtop_Heck.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "ford-mustang-gt-wiki-2.jpg",
+      "alt": "Ford Mustang, exterior",
+      "tipo": "detalle",
+      "credito": "Bull-Doser",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:%2767_Ford_Mustang_Convertible_(Cruisin%27_At_The_Boardwalk_2010).jpg",
+      "width": 1600,
+      "height": 1002
+    },
+    {
+      "archivo": "ford-mustang-gt-wiki-3.jpg",
+      "alt": "Ford Mustang, exterior",
+      "tipo": "detalle",
+      "credito": "Juanyo at English Wikipedia",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1967_Ford_Mustang_Shelby_GT-500_Eleanor.jpg",
+      "width": 1600,
+      "height": 714
+    },
+    {
+      "archivo": "ford-mustang-gt-wiki-4.jpg",
+      "alt": "Ford Mustang, exterior",
+      "tipo": "detalle",
+      "credito": "Mr.choppers",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1986_Ford_Mustang_GT_5.0_T-top.jpg",
+      "width": 1600,
+      "height": 855
+    },
+    {
+      "archivo": "ford-mustang-gt-wiki-5.jpg",
+      "alt": "Ford Mustang, de atrás",
+      "tipo": "trasera",
+      "credito": "Sicnag",
+      "fuente": "Wikimedia Commons · CC BY 2.0",
+      "licencia": "CC BY 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1982_Ford_Mustang_GT_Hatchback_(14393014141).jpg",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "ford-mustang-gt-wiki-6.jpg",
+      "alt": "Ford Mustang, de atrás",
+      "tipo": "trasera",
+      "credito": "Sicnag",
+      "fuente": "Wikimedia Commons · CC BY 2.0",
+      "licencia": "CC BY 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1981_Ford_Mustang_Cobra_Hatchback_(14203296488).jpg",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "chevrolet-onix-ls": [
+    {
+      "archivo": "chevrolet-onix-ls-wiki-1.jpg",
+      "alt": "Chevrolet Onix, exterior",
+      "tipo": "detalle",
+      "credito": "Matti Blume",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Onix_20150814-DSC05650.JPG",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "chevrolet-onix-ls-wiki-2.jpg",
+      "alt": "Chevrolet Onix, exterior",
+      "tipo": "detalle",
+      "credito": "Matti Blume",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Onix_20150902-IMG_20150902_153010.JPG",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "chevrolet-onix-ls-wiki-3.jpg",
+      "alt": "Chevrolet Onix, exterior",
+      "tipo": "detalle",
+      "credito": "Matti Blume",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Onix_20150902-IMG_20150902_154222.JPG",
+      "width": 1600,
+      "height": 1000
+    },
+    {
+      "archivo": "chevrolet-onix-ls-wiki-4.jpg",
+      "alt": "Chevrolet Onix, exterior",
+      "tipo": "detalle",
+      "credito": "RL GNZLZ from Chile",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Onix_1.4_Activ_2019_(31879412517).jpg",
+      "width": 1600,
+      "height": 929
+    },
+    {
+      "archivo": "chevrolet-onix-ls-wiki-5.jpg",
+      "alt": "Chevrolet Onix, exterior",
+      "tipo": "detalle",
+      "credito": "RL GNZLZ from Chile",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Prisma_1.4_LTZ_2017_(40501352374).jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "chevrolet-onix-ls-wiki-6.jpg",
+      "alt": "Chevrolet Onix, de atrás",
+      "tipo": "trasera",
+      "credito": "Heduardo55",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Onix_II_rear_Brazil.jpg",
+      "width": 1600,
+      "height": 1205
+    }
+  ],
+  "chevrolet-spin-premier": [
+    {
+      "archivo": "chevrolet-spin-premier-wiki-1.jpg",
+      "alt": "Chevrolet Spin, exterior",
+      "tipo": "detalle",
+      "credito": "Milhouse35",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Cobalt_2013_in_Russia.JPG",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "chevrolet-spin-premier-wiki-2.jpg",
+      "alt": "Chevrolet Spin, exterior",
+      "tipo": "detalle",
+      "credito": "TuRbO_J from Adelaide, Australia",
+      "fuente": "Wikimedia Commons · CC BY 2.0",
+      "licencia": "CC BY 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Spin_LTZ_(14824734654).jpg",
+      "width": 1600,
+      "height": 982
+    },
+    {
+      "archivo": "chevrolet-spin-premier-wiki-3.jpg",
+      "alt": "Chevrolet Spin, exterior",
+      "tipo": "detalle",
+      "credito": "TuRbO_J from Adelaide, Australia",
+      "fuente": "Wikimedia Commons · CC BY 2.0",
+      "licencia": "CC BY 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Spin_LTZ_(14640332610).jpg",
+      "width": 1600,
+      "height": 924
+    },
+    {
+      "archivo": "chevrolet-spin-premier-wiki-4.jpg",
+      "alt": "Chevrolet Spin, exterior",
+      "tipo": "detalle",
+      "credito": "Milhouse35",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Ravon_R4.jpg",
+      "width": 1600,
+      "height": 1074
+    },
+    {
+      "archivo": "chevrolet-spin-premier-wiki-5.jpg",
+      "alt": "Chevrolet Spin, exterior",
+      "tipo": "detalle",
+      "credito": "RL GNZLZ from Chile",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Spin_1.8_LTZ_2018_(25755637497).jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "chevrolet-spin-premier-wiki-6.jpg",
+      "alt": "Chevrolet Spin, exterior",
+      "tipo": "detalle",
+      "credito": "RL GNZLZ from Chile",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Chevrolet_Cobalt_1.8_LTZ_2017_(38346300391).jpg",
+      "width": 1600,
+      "height": 910
+    }
+  ],
+  "volkswagen-t-cross-highline": [
+    {
+      "archivo": "volkswagen-t-cross-highline-wiki-1.jpg",
+      "alt": "Volkswagen T-Cross, exterior",
+      "tipo": "detalle",
+      "credito": "Norbert Aepli, Switzerland ( User:Noebu )",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2016-03-01_Geneva_Motor_Show_1306.JPG",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "volkswagen-t-cross-highline-wiki-2.jpg",
+      "alt": "Volkswagen T-Cross, exterior",
+      "tipo": "detalle",
+      "credito": "Norbert Aepli, Switzerland ( User:Noebu )",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2016-03-01_Geneva_Motor_Show_1308.JPG",
+      "width": 1600,
+      "height": 1067
+    },
+    {
+      "archivo": "volkswagen-t-cross-highline-wiki-4.jpg",
+      "alt": "Volkswagen T-Cross, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:VW_T-Cross_R-Line_Genf_2019_1Y7A5932.jpg",
+      "width": 1600,
+      "height": 1340
+    },
+    {
+      "archivo": "volkswagen-t-cross-highline-wiki-5.jpg",
+      "alt": "Volkswagen T-Cross, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:VW_T-Cross_R-Line_Genf_2019_1Y7A5933.jpg",
+      "width": 1600,
+      "height": 1069
+    },
+    {
+      "archivo": "volkswagen-t-cross-highline-wiki-6.jpg",
+      "alt": "Volkswagen T-Cross, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:VW_T-Cross_Genf_2019_1Y7A5501.jpg",
+      "width": 1600,
+      "height": 793
+    }
+  ],
+  "volkswagen-saveiro-cross": [
+    {
+      "archivo": "volkswagen-saveiro-cross-wiki-3.jpg",
+      "alt": "Volkswagen Saveiro, de frente",
+      "tipo": "frente",
+      "credito": "2(L.L.K.)2 ( talk )",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:VWGOLfrente.jpg",
+      "width": 1600,
+      "height": 1270
+    },
+    {
+      "archivo": "volkswagen-saveiro-cross-wiki-4.jpg",
+      "alt": "Volkswagen Saveiro, exterior",
+      "tipo": "detalle",
+      "credito": "2(L.L.K.)2 ( talk )",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:VWGOLtraseira.jpg",
+      "width": 1600,
+      "height": 1073
+    },
+    {
+      "archivo": "volkswagen-saveiro-cross-wiki-6.jpg",
+      "alt": "Volkswagen Saveiro, exterior",
+      "tipo": "detalle",
+      "credito": "order_242 from Chile",
+      "fuente": "Wikimedia Commons · CC BY-SA 2.0",
+      "licencia": "CC BY-SA 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Amazon_1.6_GLS_1990_(16125015815).jpg",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "fiat-toro-freedom-nafta": [
+    {
+      "archivo": "fiat-toro-freedom-nafta-wiki-1.jpg",
+      "alt": "Fiat Toro, de frente",
+      "tipo": "frente",
+      "credito": "M 93",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0 de",
+      "licencia": "CC BY-SA 3.0 de",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Jeep_Renegade_1.6_MultiJet_2WD_Longitude_%E2%80%93_Frontansicht,_9._November_2014,_D%C3%BCsseldorf.jpg",
+      "width": 1600,
+      "height": 911
+    },
+    {
+      "archivo": "fiat-toro-freedom-nafta-wiki-6.jpg",
+      "alt": "Fiat Toro, exterior",
+      "tipo": "detalle",
+      "credito": "Diego HC ( talk ) 21:41, 19 February 2017 (UTC)",
+      "fuente": "Wikimedia Commons · CC0",
+      "licencia": "CC0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Toro_Volcano.jpg",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "peugeot-landtrek-allure": [
+    {
+      "archivo": "peugeot-landtrek-allure-wiki-2.jpg",
+      "alt": "Peugeot Landtrek, exterior",
+      "tipo": "detalle",
+      "credito": "El monty",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:VW_Amarok.JPG",
+      "width": 1600,
+      "height": 1086
+    },
+    {
+      "archivo": "peugeot-landtrek-allure-wiki-5.jpg",
+      "alt": "Peugeot Landtrek, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander-93",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_Amarok_Mk2_Auto_Zuerich_2023_1X7A1337.jpg",
+      "width": 1600,
+      "height": 1068
+    }
+  ],
+  "nissan-frontier-xe": [
+    {
+      "archivo": "nissan-frontier-xe-wiki-1.jpg",
+      "alt": "Nissan Frontier, de frente",
+      "tipo": "frente",
+      "credito": "IFCAR",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1998-2000_Nissan_Frontier.jpg",
+      "width": 1600,
+      "height": 834
+    },
+    {
+      "archivo": "nissan-frontier-xe-wiki-2.jpg",
+      "alt": "Nissan Frontier, de frente",
+      "tipo": "frente",
+      "credito": "IFCAR",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2nd_Nissan_Frontier_SE_crew_cab.jpg",
+      "width": 1600,
+      "height": 993
+    },
+    {
+      "archivo": "nissan-frontier-xe-wiki-5.jpg",
+      "alt": "Nissan Frontier, exterior",
+      "tipo": "detalle",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2010-2011_Nissan_Navara_(D22_MY2010)_DX_2-door_cab_chassis_(2011-04-22).jpg",
+      "width": 1600,
+      "height": 918
+    },
+    {
+      "archivo": "nissan-frontier-xe-wiki-6.jpg",
+      "alt": "Nissan Frontier, exterior",
+      "tipo": "detalle",
+      "credito": "Thilo Parg",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Nissan_NP300_Navara_DoubleCab.jpg",
+      "width": 1600,
+      "height": 1067
+    }
+  ],
+  "hyundai-creta-limited": [
+    {
+      "archivo": "hyundai-creta-limited-wiki-4.png",
+      "alt": "Hyundai Creta, de frente",
+      "tipo": "frente",
+      "credito": "Hindi DriveSpark",
+      "fuente": "Wikimedia Commons · CC BY 3.0",
+      "licencia": "CC BY 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2021_Hyundai_Alcazar_2.0_Signature_(India)_front_view.png",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "archivo": "hyundai-creta-limited-wiki-6.png",
+      "alt": "Hyundai Creta, interior",
+      "tipo": "interior",
+      "credito": "Hindi DriveSpark",
+      "fuente": "Wikimedia Commons · CC BY 3.0",
+      "licencia": "CC BY 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2021_Hyundai_Alcazar_2.0_Signature_(India)_interior.png",
+      "width": 1600,
+      "height": 900
+    }
+  ],
+  "jeep-gladiator-rubicon": [
+    {
+      "archivo": "jeep-gladiator-rubicon-wiki-2.jpg",
+      "alt": "Jeep Gladiator, exterior",
+      "tipo": "detalle",
+      "credito": "Alexander Migl",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Jeep_Gladiator_(JT)_IMG_3988.jpg",
+      "width": 1600,
+      "height": 816
+    }
+  ],
+  "fiat-fiorino-endurance": [
+    {
+      "archivo": "fiat-fiorino-endurance-wiki-1.jpg",
+      "alt": "Fiat Fiorino, de frente",
+      "tipo": "frente",
+      "credito": "M 93",
+      "fuente": "Wikimedia Commons · CC BY-SA 3.0",
+      "licencia": "CC BY-SA 3.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Fiorino_2008_front.jpg",
+      "width": 1600,
+      "height": 1323
+    },
+    {
+      "archivo": "fiat-fiorino-endurance-wiki-3.jpg",
+      "alt": "Fiat Fiorino, baúl",
+      "tipo": "baul",
+      "credito": "FiatDoBrasil",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:Fiat_Fiorino_Fire_Cargo_ano_2008.jpg",
+      "width": 1600,
+      "height": 1200
+    }
+  ],
+  "citroen-berlingo-multispace": [
+    {
+      "archivo": "citroen-berlingo-multispace-wiki-1.jpg",
+      "alt": "Citroën Berlingo, exterior",
+      "tipo": "detalle",
+      "credito": "Norbert Aepli, Switzerland ( User:Noebu )",
+      "fuente": "Wikimedia Commons · CC BY 4.0",
+      "licencia": "CC BY 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2015-03-03_Geneva_Motor_Show_3664.JPG",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "archivo": "citroen-berlingo-multispace-wiki-2.jpg",
+      "alt": "Citroën Berlingo, exterior",
+      "tipo": "detalle",
+      "credito": "OSX",
+      "fuente": "Wikimedia Commons · Public domain",
+      "licencia": "Public domain",
+      "pagina": "https://commons.wikimedia.org/wiki/File:1999_Citro%C3%ABn_Berlingo_(M59)_van_(2015-07-03).jpg",
+      "width": 1600,
+      "height": 1070
+    },
+    {
+      "archivo": "citroen-berlingo-multispace-wiki-3.jpg",
+      "alt": "Citroën Berlingo, exterior",
+      "tipo": "detalle",
+      "credito": "Jeremy from Sydney, Australia",
+      "fuente": "Wikimedia Commons · CC BY 2.0",
+      "licencia": "CC BY 2.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2005_Citro%C3%ABn_Berlingo_(M59_Series_II)_van_(22082762158).jpg",
+      "width": 1600,
+      "height": 931
+    },
+    {
+      "archivo": "citroen-berlingo-multispace-wiki-4.jpg",
+      "alt": "Citroën Berlingo, de frente",
+      "tipo": "frente",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2007_Peugeot_Partner_L600_1.6_Front.jpg",
+      "width": 1600,
+      "height": 889
+    },
+    {
+      "archivo": "citroen-berlingo-multispace-wiki-5.jpg",
+      "alt": "Citroën Berlingo, de atrás",
+      "tipo": "trasera",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2007_Peugeot_Partner_L600_1.6_Rear.jpg",
+      "width": 1600,
+      "height": 941
+    },
+    {
+      "archivo": "citroen-berlingo-multispace-wiki-6.jpg",
+      "alt": "Citroën Berlingo, de atrás",
+      "tipo": "trasera",
+      "credito": "Vauxford",
+      "fuente": "Wikimedia Commons · CC BY-SA 4.0",
+      "licencia": "CC BY-SA 4.0",
+      "pagina": "https://commons.wikimedia.org/wiki/File:2000_Citroen_Berlingo_1.9_Rear.jpg",
+      "width": 1600,
+      "height": 894
+    }
+  ]
+}

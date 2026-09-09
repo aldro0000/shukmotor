@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-label="Land Rover">
+<circle cx="48" cy="48" r="44" fill="hsl(1 55% 42%)"/>
+<circle cx="48" cy="48" r="36" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="3"/>
+<text x="48" y="60" text-anchor="middle" font-family="Arial Narrow, Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#FFFFFF">LR</text>
+</svg>

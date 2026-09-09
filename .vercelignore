@@ -1,0 +1,10 @@
+# Lo que no hace falta subir: se genera o son insumos de los scripts.
+node_modules
+dist
+*.log
+imagenes-rotas.txt
+sin-fotos.txt
+lote*.txt
+nuevos.txt
+
+scratch-*

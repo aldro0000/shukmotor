@@ -1,0 +1,424 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------------------
+   Tokens de diseño SHUKMOTOR
+   Toda variable existe en :root (paleta clara). Los bloques oscuros solo
+   redefinen valores. Oscuro es el modo por defecto (index.html arranca con
+   data-theme="dark").
+--------------------------------------------------------------------------- */
+:root {
+  --bg: #F4F5F7;
+  --surface: #FFFFFF;
+  --surface-2: #EDF0F3;
+  --border: #D9DEE4;
+  --text: #12161A;
+  --text-soft: #5B6670;
+  --accent: #E33F22;
+  --accent-text: #FFFFFF;
+  --ok: #2EA36B;
+  --warn: #D99A0B;
+  --bad: #E0463C;
+  --ok-soft: rgba(46, 163, 107, 0.14);
+  --warn-soft: rgba(217, 154, 11, 0.16);
+  --bad-soft: rgba(224, 70, 60, 0.14);
+  --overlay: rgba(14, 17, 20, 0.86);
+  --skeleton: #E4E8EC;
+  --font-display: "Rubik", "Arial Black", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Rubik", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --radius: 4px;
+  --radius-lg: 6px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E1114;
+    --surface: #171B20;
+    --surface-2: #1E242A;
+    --border: #252B32;
+    --text: #ECEFF2;
+    --text-soft: #9AA3AD;
+    --accent: #FF4D2E;
+    --accent-text: #0E1114;
+    --ok-soft: rgba(46, 163, 107, 0.18);
+    --warn-soft: rgba(217, 154, 11, 0.18);
+    --bad-soft: rgba(224, 70, 60, 0.18);
+    --overlay: rgba(6, 8, 10, 0.9);
+    --skeleton: #1E242A;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --bg: #0E1114;
+  --surface: #171B20;
+  --surface-2: #1E242A;
+  --border: #252B32;
+  --text: #ECEFF2;
+  --text-soft: #9AA3AD;
+  --accent: #FF4D2E;
+  --accent-text: #0E1114;
+  --ok-soft: rgba(46, 163, 107, 0.18);
+  --warn-soft: rgba(217, 154, 11, 0.18);
+  --bad-soft: rgba(224, 70, 60, 0.18);
+  --overlay: rgba(6, 8, 10, 0.9);
+  --skeleton: #1E242A;
+  color-scheme: dark;
+}
+
+/* Puente Tailwind v4: utilidades bg-bg, text-soft, border-border, etc.
+   Todo el CSS propio va en @layer base / components para que las utilidades
+   de Tailwind (hidden, pl-7, md:flex) siempre ganen. */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-soft: var(--text-soft);
+  --color-accent: var(--accent);
+  --color-accent-text: var(--accent-text);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-bad: var(--bad);
+  --color-ok-soft: var(--ok-soft);
+  --color-warn-soft: var(--warn-soft);
+  --color-bad-soft: var(--bad-soft);
+  --color-overlay: var(--overlay);
+  --color-skeleton: var(--skeleton);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --radius-sm: var(--radius);
+  --radius-md: var(--radius-lg);
+}
+
+@layer base {
+html {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+  html { font-size: 17px; }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+  min-height: 100dvh;
+}
+
+h1, h2, h3, h4, .display {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.02;
+}
+/* Títulos grandes en mayúscula, pesados y apretados, estilo publicación. */
+h1, h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+h3, h4 { letter-spacing: -0.015em; }
+
+.tabular, table, .num {
+  font-variant-numeric: tabular-nums;
+}
+
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+a { color: inherit; }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.scroll-x {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Los logos reales suelen ser negros o de un solo color: sin una base clara
+   desaparecerían en modo oscuro. Van en gris y toman color al pasar el mouse. */
+.logo-gris img {
+  background: #FFFFFF;
+  object-fit: contain;
+  padding: 3px;
+  filter: grayscale(1);
+  opacity: 0.9;
+  transition: filter 120ms ease, opacity 120ms ease;
+}
+.logo-gris:hover img,
+.logo-gris:focus-visible img {
+  filter: none;
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+}
+
+/* ---------------------------------------------------------------------------
+   Componentes base
+--------------------------------------------------------------------------- */
+@layer components {
+.container-x {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+@media (min-width: 768px) { .container-x { padding-inline: 1.5rem; } }
+
+.wordmark {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.45rem;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.15em;
+}
+.wordmark em { font-style: normal; color: var(--accent); }
+
+.nav-link {
+  position: relative;
+  padding: 0.35rem 0;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--text-soft);
+  transition: color 120ms ease;
+  text-decoration: none;
+}
+.nav-link:hover { color: var(--text); }
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -0.55rem;
+  height: 2px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 160ms ease;
+}
+.nav-link[aria-current="page"] { color: var(--text); }
+.nav-link[aria-current="page"]::after { transform: scaleX(1); }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  transition: border-color 140ms ease, transform 140ms ease;
+}
+.card-link:hover, .card-link:focus-within { border-color: var(--text-soft); }
+.card-link:hover .card-img img { transform: scale(1.02); }
+.card-img { overflow: hidden; background: var(--skeleton); }
+.card-img img { display: block; width: 100%; height: auto; transition: transform 300ms ease; }
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 0.45rem 0.9rem;
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.2;
+  cursor: pointer;
+  user-select: none;
+  transition: border-color 120ms ease, background 120ms ease, color 120ms ease;
+}
+.chip:hover { border-color: var(--text-soft); }
+.chip[aria-pressed="true"], .chip[data-on="true"] {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1;
+  padding: 0.8rem 1.15rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 120ms ease, border-color 120ms ease, color 120ms ease, transform 80ms ease;
+  white-space: nowrap;
+}
+.btn:active { transform: translateY(1px); }
+.btn-primary { background: var(--accent); color: var(--accent-text); }
+.btn-primary:hover { filter: brightness(1.06); }
+.btn-ghost { background: transparent; color: var(--text); border-color: var(--border); }
+.btn-ghost:hover { border-color: var(--text-soft); }
+.btn-sm { padding: 0.55rem 0.85rem; font-size: 0.85rem; }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border-radius: var(--radius);
+  padding: 0.2rem 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+.badge-ok { background: var(--ok-soft); color: var(--ok); }
+.badge-warn { background: var(--warn-soft); color: var(--warn); }
+.badge-bad { background: var(--bad-soft); color: var(--bad); }
+.badge-neutral { background: var(--surface-2); color: var(--text-soft); }
+
+.eyebrow {
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-soft);
+}
+
+.field {
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  padding: 0.7rem 0.85rem;
+  font: inherit;
+  font-size: 0.95rem;
+  transition: border-color 120ms ease;
+}
+.field:focus { outline: none; border-color: var(--accent); }
+.field::placeholder { color: var(--text-soft); opacity: 0.8; }
+select.field { appearance: none; padding-right: 2.2rem; background-image: none; }
+
+/* Range slider con track relleno hasta --pct */
+.range {
+  --pct: 50%;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 28px;
+  background: transparent;
+  cursor: pointer;
+  margin: 0;
+}
+.range:focus-visible { outline: none; }
+.range::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(to right, var(--accent) 0 var(--pct), var(--border) var(--pct) 100%);
+}
+.range::-moz-range-track { height: 4px; border-radius: 2px; background: var(--border); }
+.range::-moz-range-progress { height: 4px; border-radius: 2px; background: var(--accent); }
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px; height: 22px;
+  margin-top: -9px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 3px solid var(--accent);
+  transition: transform 100ms ease;
+}
+.range::-moz-range-thumb {
+  width: 16px; height: 16px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 3px solid var(--accent);
+}
+.range:hover::-webkit-slider-thumb, .range:focus-visible::-webkit-slider-thumb { transform: scale(1.12); }
+.range:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 4px var(--accent-soft, rgba(255,77,46,0.25)); }
+
+.hairline { border-top: 1px solid var(--border); }
+
+.prose p { margin: 0 0 1.1em; }
+.prose p:last-child { margin-bottom: 0; }
+
+.fade-in { animation: fade-in 260ms ease both; }
+@keyframes fade-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+.marquee-track { display: flex; gap: 1rem; }
+
+.grid-lines {
+  background-image: linear-gradient(var(--border) 1px, transparent 1px);
+  background-size: 100% 4rem;
+  background-position: 0 -1px;
+}
+
+.timeline { position: relative; }
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0.55rem; top: 0; bottom: 0;
+  width: 1px;
+  background: var(--border);
+}
+.timeline-dot {
+  position: absolute;
+  left: 0; top: 0.35rem;
+  width: 1.15rem; height: 1.15rem;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 3px solid var(--text-soft);
+}
+.timeline-dot.ok { border-color: var(--ok); }
+.timeline-dot.warn { border-color: var(--warn); }
+
+.drawer { animation: drawer-in 180ms ease both; }
+@keyframes drawer-in { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+
+details.acc > summary { list-style: none; cursor: pointer; }
+details.acc > summary::-webkit-details-marker { display: none; }
+details.acc[open] .acc-icon { transform: rotate(180deg); }
+.acc-icon { transition: transform 160ms ease; }
+}
+
+@layer components {
+  .paso-in { animation: paso-in 260ms cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+  .paso-in-atras { animation: paso-in-atras 260ms cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+  @keyframes paso-in { from { opacity: 0; transform: translateX(24px); } to { opacity: 1; transform: none; } }
+  @keyframes paso-in-atras { from { opacity: 0; transform: translateX(-24px); } to { opacity: 1; transform: none; } }
+}
+
+@layer components {
+  /* Comparador: la fila de etiquetas y una columna por auto, alineadas.
+     --cols lo pone el componente según cuántos autos hay. */
+  .cmp-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 116px repeat(var(--cols, 1), minmax(150px, 1fr));
+    align-items: center;
+  }
+  .cmp-wrap { min-width: calc(116px + var(--cols, 1) * 166px); }
+  @media (min-width: 768px) {
+    .cmp-grid { grid-template-columns: 200px repeat(var(--cols, 1), minmax(200px, 1fr)); }
+    .cmp-wrap { min-width: calc(200px + var(--cols, 1) * 216px); }
+  }
+}
