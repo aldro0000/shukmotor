@@ -1,0 +1,9 @@
+# Normalizar finales de línea: LF en el repo, lo que corresponda al checkout.
+* text=auto eol=lf
+
+# Binarios: que git no los toque ni intente hacerles diff.
+*.webp binary
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.ico  binary
