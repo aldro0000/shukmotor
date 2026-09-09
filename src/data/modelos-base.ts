@@ -588,7 +588,7 @@ const modelosBaseCore: ModeloBase[] = [
     slug: 'audi-q3-advanced', marca: 'audi', nombre: 'Q3', version: 'Advanced 35 TFSI S tronic', seg: 'suv', carroceria: 'SUV compacto 5 puertas',
     lista: 92.0, calle: 90.0, motor: '1.4 TFSI 16v, 150 CV', comb: 'nafta', caja: 'automatica', trac: '4x2',
     consumo: 7.1, plazas: 5, baul: 530, puertas: 5, entrega: 30, usos: ['ciudad', 'ruta', 'familia'],
-    veredicto: 'con reparos', estado: 'proximo',
+    veredicto: 'con reparos', estado: 'vigente',
     rivales: ['alfa-romeo-junior', 'chevrolet-captiva-phev', 'chevrolet-spark-euv'],
   },
   {

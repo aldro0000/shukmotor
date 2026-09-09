@@ -163,14 +163,14 @@ export const modelosInventario: ModeloBase[] = [
     slug: 'bestune-t77', marca: 'bestune', nombre: 'T77', version: 'Turbo', seg: 'suv', carroceria: 'SUV 5 puertas',
     lista: 43.2, calle: 41.3, motor: '1.5 Turbo, 170 CV', comb: 'nafta', caja: 'automatica', trac: '4x2',
     consumo: 7.6, plazas: 5, baul: 450, puertas: 5, entrega: 0, usos: ['familia', 'ruta'],
-    veredicto: 'con reparos', estado: 'proximo',
+    veredicto: 'con reparos', estado: 'vigente',
     rivales: ['baic-bj40-pro', 'dongfeng-mage', 'forthing-sx5g'],
   },
   {
     slug: 'bestune-t99', marca: 'bestune', nombre: 'T99', version: 'Turbo', seg: 'suv', carroceria: 'SUV 5 puertas',
     lista: 43.2, calle: 41.3, motor: '1.5 Turbo, 170 CV', comb: 'nafta', caja: 'automatica', trac: '4x2',
     consumo: 7.6, plazas: 5, baul: 450, puertas: 5, entrega: 0, usos: ['familia', 'ruta'],
-    veredicto: 'con reparos', estado: 'proximo',
+    veredicto: 'con reparos', estado: 'vigente',
     rivales: ['baic-bj40-pro', 'dongfeng-mage', 'forthing-sx5g'],
   },
   {
@@ -429,14 +429,14 @@ export const modelosInventario: ModeloBase[] = [
     slug: 'dongfeng-huge', marca: 'dongfeng', nombre: 'Huge', version: 'Turbodiesel 4x4', seg: 'pickup', carroceria: 'Pickup doble cabina',
     lista: 62.0, calle: 59.3, motor: '2.2 Turbodiesel, 190 CV', comb: 'diesel', caja: 'automatica', trac: '4x4',
     consumo: 8.0, plazas: 5, baul: 1100, puertas: 4, entrega: 0, usos: ['trabajo', 'ruta'],
-    veredicto: 'con reparos', estado: 'proximo',
+    veredicto: 'con reparos', estado: 'vigente',
     rivales: ['byd-shark', 'jac-t9-phev', 'ford-ranger-cabina-chasis'],
   },
   {
     slug: 'dongfeng-mage', marca: 'dongfeng', nombre: 'Mage', version: 'Turbo', seg: 'suv', carroceria: 'SUV 5 puertas',
     lista: 43.2, calle: 41.3, motor: '1.5 Turbo, 170 CV', comb: 'nafta', caja: 'automatica', trac: '4x2',
     consumo: 7.6, plazas: 5, baul: 450, puertas: 5, entrega: 0, usos: ['familia', 'ruta'],
-    veredicto: 'con reparos', estado: 'proximo',
+    veredicto: 'con reparos', estado: 'vigente',
     rivales: ['baic-bj40-pro', 'bestune-t77', 'bestune-t99'],
   },
   {
@@ -1255,7 +1255,7 @@ export const modelosInventario: ModeloBase[] = [
     slug: 'skywell-ht-i', marca: 'skywell', nombre: 'HT-i', version: 'Eléctrico', seg: 'suv', carroceria: 'SUV 5 puertas',
     lista: 66.9, calle: 64.0, motor: 'Eléctrico 190 kW, batería 65 kWh', comb: 'electrico', caja: 'automatica', trac: 'awd',
     consumo: 1.6, plazas: 5, baul: 450, puertas: 5, entrega: 0, usos: ['familia', 'ruta'],
-    veredicto: 'con reparos', estado: 'proximo',
+    veredicto: 'con reparos', estado: 'vigente',
     rivales: ['aion-v', 'arcfox-t1', 'arcfox-t5'],
   },
   {

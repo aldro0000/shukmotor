@@ -181,7 +181,7 @@ export const modelosExtra: ModeloBase[] = [
     slug: 'dongfeng-box', marca: 'dongfeng', nombre: 'Box', version: 'Eléctrico 43 kWh', seg: 'hatch', carroceria: 'Hatchback 5 puertas',
     lista: 36.5, calle: 35.5, motor: 'Eléctrico 70 kW, batería 43 kWh', comb: 'electrico', caja: 'automatica', trac: '4x2',
     consumo: 1.4, plazas: 5, baul: 326, puertas: 5, entrega: 14, usos: ['ciudad', 'primer auto'],
-    veredicto: 'con reparos', estado: 'proximo',
+    veredicto: 'con reparos', estado: 'vigente',
     rivales: ['citroen-c3-hybrid-max', 'citroen-c4-hybrid-plus', 'peugeot-308-phev'],
   },
   {

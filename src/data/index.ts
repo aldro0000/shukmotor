@@ -51,7 +51,20 @@ export const masMiradosIds = [
   'ford-ranger-xlt',
   'volkswagen-polo-highline',
 ]
-export const masMirados: Modelo[] = masMiradosIds.map((id) => modelosPorId[id])
+/**
+ * Un id de esta lista puede dejar de estar publicado: el modelo sale del
+ * mercado, o todavía no le conseguimos las dos fotos que pide el catálogo.
+ * Se descartan los que no están y se completa con lo más barato publicado,
+ * para que la franja siempre tenga las cuatro cards.
+ */
+export const masMirados: Modelo[] = (() => {
+  const elegidos = masMiradosIds.map((id) => modelosPorId[id]).filter((m): m is Modelo => Boolean(m))
+  if (elegidos.length >= 8) return elegidos
+  const relleno = modelos
+    .filter((m) => m.estado === 'vigente' && !elegidos.includes(m))
+    .sort((a, b) => a.precioCalleARS - b.precioCalleARS)
+  return [...elegidos, ...relleno].slice(0, 8)
+})()
 
 const fmtARS = new Intl.NumberFormat('es-AR', { style: 'currency', currency: 'ARS', maximumFractionDigits: 0 })
 const fmtNum = new Intl.NumberFormat('es-AR', { maximumFractionDigits: 0 })
