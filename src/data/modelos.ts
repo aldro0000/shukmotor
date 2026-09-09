@@ -253,10 +253,46 @@ const visiblesIds = new Set(modelosCompletos.filter((m) => m.visible).map((m) =>
 /** Todo el catálogo, visible o no. Solo para scripts y validaciones. */
 export const todosLosModelos: Modelo[] = modelosCompletos
 
+/**
+ * Los rivales se declaran a mano, pero un rival sin fotos no se publica y no
+ * puede aparecer en la comparativa. Cuando la lista declarada se queda corta,
+ * se completa con lo más parecido que sí esté publicado: mismo segmento, otra
+ * marca, el precio más cercano. Así la comparativa nunca queda vacía por un
+ * modelo al que todavía no le conseguimos foto.
+ */
+function rivalesDe(m: Modelo, publicados: Modelo[]): string[] {
+  const elegidos = m.rivales.filter((r) => visiblesIds.has(r))
+  if (elegidos.length >= 3) return elegidos.slice(0, 3)
+  const candidatos = publicados
+    .filter((o) => o.id !== m.id && !elegidos.includes(o.id) && o.segmento === m.segmento && o.estado === m.estado)
+    .sort((a, b) => {
+      // Primero los de otra marca: compararse con un hermano de gama no sirve.
+      const marcaA = a.marcaId === m.marcaId ? 1 : 0
+      const marcaB = b.marcaId === m.marcaId ? 1 : 0
+      if (marcaA !== marcaB) return marcaA - marcaB
+      return Math.abs(a.precioCalleARS - m.precioCalleARS) - Math.abs(b.precioCalleARS - m.precioCalleARS)
+    })
+  for (const c of candidatos) {
+    if (elegidos.length >= 3) break
+    elegidos.push(c.id)
+  }
+  // Segmentos flacos (monovolúmenes, sedanes chicos): antes que dejar la
+  // comparativa coja, se compara con lo más cercano en precio que haya.
+  if (elegidos.length < 2) {
+    const porPrecio = publicados
+      .filter((o) => o.id !== m.id && !elegidos.includes(o.id) && o.estado === m.estado)
+      .sort((a, b) => Math.abs(a.precioCalleARS - m.precioCalleARS) - Math.abs(b.precioCalleARS - m.precioCalleARS))
+    for (const c of porPrecio) {
+      if (elegidos.length >= 3) break
+      elegidos.push(c.id)
+    }
+  }
+  return elegidos
+}
+
 /** Lo que la app muestra. Los rivales también se filtran a lo visible. */
-export const modelos: Modelo[] = modelosCompletos
-  .filter((m) => m.visible)
-  .map((m) => ({ ...m, rivales: m.rivales.filter((r) => visiblesIds.has(r)) }))
+const publicados: Modelo[] = modelosCompletos.filter((m) => m.visible)
+export const modelos: Modelo[] = publicados.map((m) => ({ ...m, rivales: rivalesDe(m, publicados) }))
 
 export const modelosPorId: Record<string, Modelo> = Object.fromEntries(modelos.map((m) => [m.id, m]))
 
