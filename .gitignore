@@ -28,3 +28,6 @@ dist-ssr
 # Archivos de trabajo de los scripts de datos, no forman parte del proyecto
 scratch-*
 imagenes-rotas.txt
+
+# Copias de trabajo de otras herramientas: no forman parte del proyecto
+work/
