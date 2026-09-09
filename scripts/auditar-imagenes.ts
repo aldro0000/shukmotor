@@ -28,9 +28,9 @@ export function todasLasRutas(): RutaImagen[] {
 
 /** Las variantes del srcset también tienen que existir o el navegador falla. */
 function variantes(url: string): string[] {
-  if (!/-1200\.webp$/.test(url)) return [url]
-  const base = url.replace(/-1200\.webp$/, '')
-  return [360, 720, 1200].map((w) => `${base}-${w}.webp`)
+  if (!/-720\.webp$/.test(url)) return [url]
+  const base = url.replace(/-720\.webp$/, '')
+  return [360, 720].map((w) => `${base}-${w}.webp`)
 }
 
 export function faltantes(): RutaImagen[] {

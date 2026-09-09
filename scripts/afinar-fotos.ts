@@ -24,8 +24,10 @@ const FOTOS = join(PUBLIC, 'fotos')
  * de preferencia del producto. La cuarta sumaba un tercio de peso sin agregar
  * información.
  */
-export const ANCHOS = [360, 720, 1200] as const
-const CALIDAD: Record<number, number> = { 360: 60, 720: 58, 1200: 54 }
+export const ANCHOS = [360, 720] as const
+const CALIDAD: Record<number, number> = { 360: 60, 720: 58 }
+/** El ancho más grande es el que queda como `archivo` en el manifiesto. */
+const GRANDE = ANCHOS[ANCHOS.length - 1]
 const MAX_POR_MODELO = 3
 
 function pesoMB(dir: string): number {
@@ -74,19 +76,19 @@ async function main() {
       for (const ancho of ANCHOS) {
         const destino = join(dir, `${base}-${ancho}.webp`)
         try {
-          const salida = await sharp(fuente, { failOn: 'none' })
+          const salida = await sharp(readFileSync(fuente), { failOn: 'none' })
             .resize({ width: ancho, withoutEnlargement: true })
             .webp({ quality: CALIDAD[ancho], effort: 6 })
             .toBuffer({ resolveWithObject: true })
           writeFileSync(destino, salida.data)
-          if (ancho === 1200) dims = { w: salida.info.width, h: salida.info.height }
+          if (ancho === GRANDE) dims = { w: salida.info.width, h: salida.info.height }
           vivos.add(destino)
         } catch {
           /* si una falla, seguimos con las demás */
         }
       }
       if (dims) {
-        f.archivo = `${base}-1200.webp`
+        f.archivo = `${base}-${GRANDE}.webp`
         f.width = dims.w
         f.height = dims.h
       }
@@ -106,16 +108,23 @@ async function main() {
       if (!fuente) continue
       let dims: { w: number; h: number } | null = null
       for (const ancho of ANCHOS) {
-        const salida = await sharp(fuente, { failOn: 'none' })
-          .resize({ width: ancho, withoutEnlargement: true })
-          .webp({ quality: CALIDAD[ancho], effort: 6 })
-          .toBuffer({ resolveWithObject: true })
-        writeFileSync(join(dir, `${base}-${ancho}.webp`), salida.data)
-        if (ancho === 1200) dims = { w: salida.info.width, h: salida.info.height }
-        vivos.add(join(dir, `${base}-${ancho}.webp`))
+        const destino = join(dir, `${base}-${ancho}.webp`)
+        try {
+          const salida = await sharp(readFileSync(fuente), { failOn: 'none' })
+            .resize({ width: ancho, withoutEnlargement: true })
+            .webp({ quality: CALIDAD[ancho], effort: 6 })
+            .toBuffer({ resolveWithObject: true })
+          writeFileSync(destino, salida.data)
+          if (ancho === GRANDE) dims = { w: salida.info.width, h: salida.info.height }
+        } catch {
+          // Un archivo trabado en Windows no puede abortar la pasada entera:
+          // el paso que sigue borra todo lo que no quedó vivo.
+        }
+        // Vivo igual: si ya existía, no hay que borrarlo por no haberlo reescrito.
+        if (existsSync(destino)) vivos.add(destino)
       }
       if (dims) {
-        nota.archivo = `${base}-1200.webp`
+        nota.archivo = `${base}-${GRANDE}.webp`
         nota.width = dims.w
         nota.height = dims.h
       }
