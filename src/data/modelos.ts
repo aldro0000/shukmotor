@@ -3,6 +3,7 @@ import fotosReales from './fotos-reales.json'
 import { marcasPorId } from './marcas'
 import { modelosBase, type ModeloBase } from './modelos-base'
 import { opinionesPorModelo } from './opiniones'
+import { videos as videosReales } from './videos'
 
 /** Fotos reales mínimas para que un modelo se muestre. */
 const MINIMO_FOTOS = 2
@@ -98,15 +99,15 @@ export function fotosDe(slug: string, nombreCompleto: string): Foto[] {
 }
 
 /**
- * Video reviews: apagado.
- *
- * Los ids de YouTube de acá eran generados, así que cada card prometía un video
- * que no existe. Antes que mostrar un link roto preferimos no tener la sección:
- * devolvemos vacío y tanto la home como la ficha ya saltean el bloque. Cuando
- * haya videos reales, con canal y id verificados, se vuelve a prender acá.
+ * Video reviews reales, de src/data/videos.ts. Ese archivo lo arma el
+ * pipeline de novedades contra la API de YouTube: cada id viene verificado
+ * (canal en la lista blanca, público, insertable, de menos de 180 días), no
+ * generado. Hasta que corra esa búsqueda por primera vez el archivo está
+ * vacío y esto devuelve [], que es lo mismo que estaba antes: la ficha ya
+ * saltea el bloque cuando no hay videos.
  */
-export function videosDe(_slug: string, _nombreCompleto: string, _cantidad: number, _fotos: Foto[]): VideoReview[] {
-  return []
+export function videosDe(slug: string, _nombreCompleto: string, _cantidad: number, _fotos: Foto[]): VideoReview[] {
+  return videosReales[slug] ?? []
 }
 
 const SERVICE_BASE: Record<ModeloBase['seg'], number> = {
