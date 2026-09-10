@@ -42,7 +42,7 @@ export function Header() {
           SHUK<em>MOTOR</em>
         </Link>
 
-        <nav className="hidden min-w-0 flex-1 items-center gap-5 lg:flex" aria-label="Principal">
+        <nav className="scroll-x hidden min-w-0 flex-1 items-center gap-3 overflow-x-auto lg:flex" aria-label="Principal">
           {NAV.map((n) => (
             <NavLink key={n.to} to={n.to} className="nav-link shrink-0">
               {n.label}

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { ShieldCheck } from 'lucide-react'
+import { Cotizacion } from './Cotizacion'
 
 const COLUMNAS = [
   {
@@ -62,9 +63,17 @@ export function Footer() {
         ))}
       </div>
       <div className="border-t border-border">
-        <div className="container-x flex flex-wrap items-center justify-between gap-2 py-4 text-xs text-soft">
+        {/*
+          Las dos aclaraciones sobre los números van juntas a la derecha: son lo
+          mismo, la letra chica de los precios. Repartidas por separado, la
+          cotización quedaba flotando en el medio sin relación con nada.
+        */}
+        <div className="container-x flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 py-4 text-xs text-soft">
           <p>© 2026 SHUKMOTOR. Hecho en Argentina.</p>
-          <p>Datos de ejemplo: precios, tasas y fechas son ilustrativos.</p>
+          <p className="flex flex-wrap items-baseline gap-x-2 gap-y-1 sm:justify-end">
+            <span>Datos de ejemplo: precios, tasas y fechas son ilustrativos.</span>
+            <Cotizacion />
+          </p>
         </div>
       </div>
     </footer>
