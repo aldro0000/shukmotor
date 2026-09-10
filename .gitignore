@@ -31,3 +31,6 @@ imagenes-rotas.txt
 
 # Copias de trabajo de otras herramientas: no forman parte del proyecto
 work/
+
+# Handoff interno del pipeline de novedades, nunca se commitea
+data/.tmp/

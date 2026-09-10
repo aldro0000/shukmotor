@@ -307,3 +307,67 @@ export type PosventaRelevada = {
   stockEnMostrador: number
   nota?: string
 }
+
+/**
+ * Fila cruda de la Guía Oficial de Precios de ACARA, tal como sale de la
+ * tabla: precio de 0km más el valor de reventa por año, hasta 17 años atrás.
+ * El snapshot diario guarda todo esto aunque hoy sólo se use `precioLista`.
+ *
+ * `porAnio` es un array de 17 posiciones (la más nueva primero) con el valor
+ * que ACARA le da a un usado de esa antigüedad, o null si no hay dato. No se
+ * etiqueta con el año calendario porque el encabezado de esa tabla en el sitio
+ * de ACARA tiene un desfasaje de una columna que todavía no resolvimos: se
+ * guarda la serie posicional, sin inventarle una fecha.
+ */
+export type FilaPrecioAcara = {
+  marca: string
+  modelo: string
+  version: string
+  moneda: '$' | 'u$s'
+  /** Precio de lista de la unidad 0km, en la moneda de `moneda`. null si la versión ya no se vende 0km. */
+  precioLista: number | null
+  porAnio: (number | null)[]
+}
+
+export type TipoMovimientoPrecio = 'suba' | 'baja' | 'version_nueva' | 'version_baja' | 'marca_nueva' | 'marca_desaparece'
+
+/**
+ * Un cambio detectado entre dos relevamientos de ACARA. `porcentaje` y
+ * `precioAnterior` sólo aplican a suba/baja. `diasDesdeCambioAnterior` cuenta
+ * cuánto hacía que ese modelo no se movía, para poder decir "tercera suba en
+ * dos meses".
+ */
+export type MovimientoPrecio = {
+  id: string
+  tipo: TipoMovimientoPrecio
+  marca: string
+  modelo: string
+  version: string
+  fecha: string
+  precioListaARS: number | null
+  precioAnteriorARS: number | null
+  porcentaje: number | null
+  diasDesdeCambioAnterior: number | null
+  /** slug del modelo en nuestro catálogo, si se pudo relacionar con confianza */
+  modeloSlug: string | null
+}
+
+export type OrigenBorrador = 'movimiento_precio' | 'radar' | 'lanzamiento'
+export type EstadoBorrador = 'borrador' | 'publicado'
+
+/**
+ * Nota generada a partir de datos propios (nunca copiando el cuerpo de una
+ * nota ajena). No se muestra en el sitio hasta que `estado` pasa a
+ * 'publicado', lo que sólo ocurre en el commit del merge del Pull Request.
+ */
+export type BorradorNota = {
+  id: string
+  titulo: string
+  bajada: string
+  cuerpo: string
+  categoria: CategoriaNovedad
+  fecha: string
+  origen: OrigenBorrador
+  evidencia: string[]
+  estado: EstadoBorrador
+}
