@@ -10,6 +10,7 @@ import { modelosBase } from '../src/data/modelos-base'
 
 const DATA = join(process.cwd(), 'src', 'data')
 const DESTINO = join(DATA, 'fotos-reales.json')
+const FOTOS = join(process.cwd(), 'public', 'fotos')
 
 /** Orden: los primeros mandan si un modelo aparece en más de uno. */
 const PARCIALES = [
@@ -23,6 +24,7 @@ const PARCIALES = [
   'fotos-rescate.json',
   'fotos-inventario.json',
   'fotos-inventario-wiki.json',
+  'fotos-codex.json',
 ]
 
 type Foto = { archivo: string; [k: string]: unknown }
@@ -35,8 +37,14 @@ for (const nombre of PARCIALES) {
   leidos++
   const datos: Record<string, Foto[]> = JSON.parse(readFileSync(ruta, 'utf8'))
   for (const [slug, fotos] of Object.entries(datos)) {
-    // Nos quedamos con el conjunto más grande: si un proceso encontró más, gana.
-    if (!final[slug] || fotos.length > final[slug].length) final[slug] = fotos
+    // Un parcial viejo puede conservar metadatos de archivos que ya no existen.
+    // Sólo dejamos competir conjuntos íntegros para no pisar fotos válidas.
+    const disponibles = fotos.filter((foto) =>
+      existsSync(join(FOTOS, slug, foto.archivo)),
+    )
+    if (!final[slug] || disponibles.length > final[slug].length) {
+      final[slug] = disponibles
+    }
   }
 }
 
@@ -65,4 +73,3 @@ if (process.argv.includes('--limpiar')) {
   }
   console.log('Parciales borrados.')
 }
-
