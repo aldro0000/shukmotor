@@ -119,6 +119,16 @@ function logoDe(slug: string): string {
   return logos[slug] ? `/logos/${logos[slug].archivo}` : `/logos/${slug}.svg`
 }
 
+/**
+ * Si la marca tiene un logo real bajado de Commons. Cuando no, la app muestra
+ * las iniciales: hay marcas chicas cuyo logo no está en ningún repositorio con
+ * licencia libre, y copiarlo del sitio oficial sería usar una marca registrada
+ * sin permiso.
+ */
+export function logoEsReal(slug: string): boolean {
+  return Boolean(logos[slug])
+}
+
 /** Un logo casi blanco necesita chip oscuro; el resto va sobre chip claro. */
 export function logoEsClaro(slug: string): boolean {
   return logos[slug]?.fondo === 'claro'

@@ -1,10 +1,10 @@
 import type { Marca, Modelo, Opinion, Veredicto } from '../types'
-import { marcas, marcasPorId, logoEsClaro } from './marcas'
+import { marcas, marcasPorId, logoEsClaro, logoEsReal } from './marcas'
 import { modelos, modelosALaVenta, modelosPorId, modelosProximos, todosLosModelos } from './modelos'
 import { novedades, novedadesPorSlug } from './novedades'
 import { opiniones, opinionesPorModelo } from './opiniones'
 
-export { marcas, marcasPorId, logoEsClaro, modelos, modelosALaVenta, modelosProximos, modelosPorId, todosLosModelos, novedades, novedadesPorSlug, opiniones, opinionesPorModelo }
+export { marcas, marcasPorId, logoEsClaro, logoEsReal, modelos, modelosALaVenta, modelosProximos, modelosPorId, todosLosModelos, novedades, novedadesPorSlug, opiniones, opinionesPorModelo }
 
 /** Tipo de cambio de referencia para mostrar "por USD X más entrás a estos". Ilustrativo. */
 export const DOLAR_REFERENCIA_ARS = 1450

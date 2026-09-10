@@ -1,9 +1,9 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ExternalLink } from 'lucide-react'
-import { marcasPorId, modelos, novedades } from '../data'
+import { logoEsReal, marcas, marcasPorId, modelos, novedades, todosLosModelos } from '../data'
 import { useTitle } from '../hooks/useTitle'
-import { Chip, Container, SectionHead } from '../components/ui'
+import { Chip, Container, LogoMarca, SectionHead } from '../components/ui'
 
 type Credito = {
   clave: string
@@ -55,7 +55,9 @@ export default function Creditos() {
   const mostrados = creditos.filter((c) => filtro === 'todas' || c.donde === filtro)
   const totalFotos = creditos.reduce((a, c) => a + c.cantidad, 0)
   const autores = new Set(creditos.map((c) => c.autor)).size
-  const sinFoto = modelos.filter((m) => m.fotos.every((f) => f.url.endsWith('.svg'))).length
+  const sinPublicar = todosLosModelos.length - modelos.length
+  const conLogoReal = marcas.filter((m) => logoEsReal(m.slug)).length
+  const sinLogoReal = marcas.filter((m) => !logoEsReal(m.slug)).sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'))
 
   return (
     <Container className="py-10">
@@ -75,14 +77,14 @@ export default function Creditos() {
           <dd className="font-display text-4xl font-black leading-none">{autores}</dd>
         </div>
         <div>
-          <dt className="eyebrow">Modelos con foto real</dt>
-          <dd className="font-display text-4xl font-black leading-none">{modelos.length - sinFoto}</dd>
-          <p className="mt-1 text-xs text-soft">de {modelos.length}</p>
+          <dt className="eyebrow">Modelos publicados</dt>
+          <dd className="font-display text-4xl font-black leading-none">{modelos.length}</dd>
+          <p className="mt-1 text-xs text-soft">todos con foto real</p>
         </div>
         <div>
-          <dt className="eyebrow">Todavía sin foto real</dt>
-          <dd className="font-display text-4xl font-black leading-none text-warn">{sinFoto}</dd>
-          <p className="mt-1 text-xs text-soft">van con ilustración</p>
+          <dt className="eyebrow">Esperando foto</dt>
+          <dd className="font-display text-4xl font-black leading-none text-warn">{sinPublicar}</dd>
+          <p className="mt-1 text-xs text-soft">no se publican hasta tenerla</p>
         </div>
       </dl>
 
@@ -152,8 +154,8 @@ export default function Creditos() {
             vende en Argentina. Cuando la diferencia importa, lo decimos en la ficha.
           </li>
           <li>
-            Los modelos sin foto real llevan una ilustración, marcada como tal. Preferimos eso antes que poner la foto de otro
-            auto parecido.
+            Un modelo sin dos fotos reales no se publica. Antes llevaba una ilustración marcada como tal; la sacamos porque
+            una ficha con un dibujo en lugar del auto se lee a medio hacer. Hoy hay {sinPublicar} modelos esperando foto.
           </li>
           <li>
             Si sos el autor de una foto y querés que la saquemos o que cambiemos cómo te acreditamos, escribinos y lo hacemos.
@@ -162,6 +164,35 @@ export default function Creditos() {
         <Link to="/novedades/independencia-editorial-como-trabajamos" className="mt-4 inline-block text-sm font-semibold hover:text-accent">
           Cómo trabajamos y de qué vivimos
         </Link>
+      </div>
+
+      <div className="card mt-6 p-5">
+        <h2 className="text-2xl">Los logos de las marcas</h2>
+        <p className="mt-3 max-w-prose text-sm text-soft">
+          Un logo es una marca registrada. Los usamos para identificar de qué marca estamos hablando, que es el uso de
+          siempre en cualquier medio de autos: no los alteramos, no los presentamos como nuestros y ninguna marca nos
+          auspicia. De las {marcas.length} marcas del catálogo, {conLogoReal} tienen su logo bajado de Wikimedia Commons
+          con licencia libre.
+        </p>
+        {sinLogoReal.length > 0 && (
+          <>
+            <p className="mt-3 max-w-prose text-sm text-soft">
+              Las otras {sinLogoReal.length} aparecen con sus iniciales en un círculo. No es un error de carga: son marcas
+              cuyo logo no está en ningún repositorio con licencia libre. Copiarlo del sitio oficial sería tomar una marca
+              registrada sin permiso, y dibujarlo a mano es lo mismo con más pasos. Preferimos las iniciales.
+            </p>
+            <ul className="mt-4 flex flex-wrap gap-x-5 gap-y-3" role="list">
+              {sinLogoReal.map((m) => (
+                <li key={m.id}>
+                  <Link to={`/marcas/${m.slug}`} className="flex items-center gap-2 text-sm hover:text-accent">
+                    <LogoMarca marca={m} size={26} />
+                    {m.nombre}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
       </div>
     </Container>
   )

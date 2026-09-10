@@ -1,18 +1,4 @@
 {
-  "alfa-romeo": {
-    "archivo": "alfa-romeo-real.svg",
-    "credito": "Alfa Romeo",
-    "licencia": "Public domain",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_4C_Spider_-_logo_wordmark_(Italy,_2015).svg",
-    "fondo": "oscuro"
-  },
-  "bmw": {
-    "archivo": "bmw-real.svg",
-    "credito": "This W3C-unspecified vector image was created with Inkscape by Lispir ( Lispir ) .",
-    "licencia": "Public domain",
-    "pagina": "https://commons.wikimedia.org/wiki/File:BMW_Sauber_Logo.svg",
-    "fondo": "oscuro"
-  },
   "byd": {
     "archivo": "byd-real.svg",
     "credito": "Unknown author Unknown author",
@@ -32,20 +18,6 @@
     "credito": "Chery Automobile",
     "licencia": "Public domain",
     "pagina": "https://commons.wikimedia.org/wiki/File:Chery_logo.svg",
-    "fondo": "oscuro"
-  },
-  "citroen": {
-    "archivo": "citroen-real.svg",
-    "credito": "Unknown author Unknown author",
-    "licencia": "Public domain",
-    "pagina": "https://commons.wikimedia.org/wiki/File:PSA_Peugeot_Citro%C3%ABn_logo.svg",
-    "fondo": "oscuro"
-  },
-  "cupra": {
-    "archivo": "cupra-real.svg",
-    "credito": "Seat",
-    "licencia": "Public domain",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Cupra.svg",
     "fondo": "oscuro"
   },
   "dongfeng": {
@@ -146,77 +118,242 @@
     "pagina": "https://commons.wikimedia.org/wiki/File:Volvo_logo.svg",
     "fondo": "oscuro"
   },
-  "zeekr": {
-    "archivo": "zeekr-real.svg",
-    "credito": "Zeekr",
-    "licencia": "Public domain",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Zeekr_logo.svg",
-    "fondo": "oscuro"
-  },
-  "abarth": {
-    "archivo": "abarth-real.svg",
-    "credito": "Unknown author Unknown author",
-    "licencia": "Public domain",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Abarth_Trofeo_Slalom.svg"
-  },
   "aion": {
     "archivo": "aion-real.svg",
     "credito": "TFGM20!",
     "licencia": "CC0",
-    "pagina": "https://commons.wikimedia.org/wiki/File:AION_Auto_UK_simple_logo.svg"
+    "pagina": "https://commons.wikimedia.org/wiki/File:AION_Auto_UK_simple_logo.svg",
+    "fondo": "oscuro"
   },
   "chevrolet": {
     "archivo": "chevrolet-real.svg",
     "credito": "Chevrolet (vector graphics image by Roberto Ettore",
     "licencia": "Public domain",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Logo_Chevrolet.svg"
+    "pagina": "https://commons.wikimedia.org/wiki/File:Logo_Chevrolet.svg",
+    "fondo": "oscuro"
   },
   "ford": {
     "archivo": "ford-real.svg",
     "credito": "Paul Rand by prototype current form graphics image Ford in 1966 [ 1 ] . This vector image was created with the original form in CorelDraw ver. X4 and ver. X5. In its final form in inkscape. This W3C-unspecified vector image was created with Inkscape by Lispir and dg) .",
     "licencia": "Public domain",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Ford_logo.svg"
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ford_logo.svg",
+    "fondo": "oscuro"
   },
   "geely": {
     "archivo": "geely-real.svg",
     "credito": "Geely",
     "licencia": "Public domain",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Geely_logo.svg"
-  },
-  "great-wall": {
-    "archivo": "great-wall-real.svg",
-    "credito": "Universal Pictures, Le Vision Pictures, China Film Group Corporation",
-    "licencia": "Public domain",
-    "pagina": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_Film_logo.svg"
-  },
-  "iveco": {
-    "archivo": "iveco-real.svg",
-    "credito": "Iveco Magirus",
-    "licencia": "Public domain",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Iveco_Magirus_Logo.svg"
+    "pagina": "https://commons.wikimedia.org/wiki/File:Geely_logo.svg",
+    "fondo": "oscuro"
   },
   "jetour": {
     "archivo": "jetour-real.svg",
     "credito": "Chery Automobile",
     "licencia": "Public domain",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Jetour_logo.svg"
+    "pagina": "https://commons.wikimedia.org/wiki/File:Jetour_logo.svg",
+    "fondo": "oscuro"
   },
   "land-rover": {
     "archivo": "land-rover-real.svg",
     "credito": "Jaguar Land Rover Automotive PLC",
     "licencia": "Public domain",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Land_Rover_2023.svg"
+    "pagina": "https://commons.wikimedia.org/wiki/File:Land_Rover_2023.svg",
+    "fondo": "oscuro"
   },
   "mercedes-benz": {
     "archivo": "mercedes-benz-real.svg",
     "credito": "Unknown author Unknown author",
     "licencia": "Public domain",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_free_logo.svg"
+    "pagina": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_free_logo.svg",
+    "fondo": "oscuro"
   },
   "toyota": {
     "archivo": "toyota-real.svg",
     "credito": "Toyota Motor Corporation",
     "licencia": "Public domain",
-    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_carlogo.svg"
+    "pagina": "https://commons.wikimedia.org/wiki/File:Toyota_carlogo.svg",
+    "fondo": "oscuro"
+  },
+  "audi": {
+    "archivo": "audi-real.svg",
+    "credito": "Original: Audi ; Vectorized to SVG by FireDragonValo",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Audi_logo.svg",
+    "fondo": "oscuro"
+  },
+  "avatr": {
+    "archivo": "avatr-real.svg",
+    "credito": "Avatr Technology Co., Ltd.",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Avatr_Technology_logo.svg",
+    "fondo": "oscuro"
+  },
+  "deepal": {
+    "archivo": "deepal-real.svg",
+    "credito": "Deepal Automobile Technology Co., Ltd.",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Deepal_global_logo.svg",
+    "fondo": "oscuro"
+  },
+  "mini": {
+    "archivo": "mini-real.svg",
+    "credito": "BMW SVG by CMetalCore This W3C-unspecified vector image was created with Inkscape .",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:MINI_logo.svg",
+    "fondo": "oscuro"
+  },
+  "peugeot": {
+    "archivo": "peugeot-real.svg",
+    "credito": "Unknown (original logo) Ssolbergj (vector graphics)",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Peugeot_Logo.svg",
+    "fondo": "oscuro"
+  },
+  "volkswagen": {
+    "archivo": "volkswagen-real.svg",
+    "credito": "FDRMRZUSA",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Volkswagen_-_Logo.svg",
+    "fondo": "oscuro"
+  },
+  "xpeng": {
+    "archivo": "xpeng-real.svg",
+    "credito": "XPeng Motor",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:XPeng_logo.svg",
+    "fondo": "oscuro"
+  },
+  "kgm": {
+    "archivo": "kgm-real.svg",
+    "credito": "T.C. Ulaştırma ve Altyapı Bakanlığı",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:KGM_logo.svg",
+    "fondo": "oscuro"
+  },
+  "maxus": {
+    "archivo": "maxus-real.svg",
+    "credito": "Maxus",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Maxus-Logo.svg",
+    "fondo": "oscuro"
+  },
+  "ora": {
+    "archivo": "ora-real.svg",
+    "credito": "Great Wall Motor",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ora_logo.svg",
+    "fondo": "oscuro"
+  },
+  "renault": {
+    "archivo": "renault-real.svg",
+    "credito": "Renault S.A.",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Renault_logo.svg",
+    "fondo": "oscuro"
+  },
+  "smart": {
+    "archivo": "smart-real.svg",
+    "credito": "Vascer",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Smart_logo.svg",
+    "fondo": "claro"
+  },
+  "subaru": {
+    "archivo": "subaru-real.svg",
+    "credito": "Subaru",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Subaru_logo.svg",
+    "fondo": "oscuro"
+  },
+  "suzuki": {
+    "archivo": "suzuki-real.svg",
+    "credito": "TTTNIS",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Suzuki_logo.svg",
+    "fondo": "oscuro"
+  },
+  "jmc": {
+    "archivo": "jmc-real.svg",
+    "credito": "Jmc Project Ltd",
+    "licencia": "CC BY-SA 4.0",
+    "pagina": "https://commons.wikimedia.org/wiki/File:JMC_Logo.svg",
+    "fondo": "oscuro"
+  },
+  "mg": {
+    "archivo": "mg-real.svg",
+    "credito": "SAIC Motor , MG (chinesische Automarke)",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Mg_logo.svg",
+    "fondo": "oscuro"
+  },
+  "ds": {
+    "archivo": "ds-real.svg",
+    "credito": "Stellantis NV",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:DS_Automobiles_2025_wordmark.svg",
+    "fondo": "oscuro"
+  },
+  "jaecoo": {
+    "archivo": "jaecoo-real.svg",
+    "credito": "Chery",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Jaecoo_wordmark.svg",
+    "fondo": "oscuro"
+  },
+  "omoda": {
+    "archivo": "omoda-real.svg",
+    "credito": "Chery",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Omoda_wordmark.svg",
+    "fondo": "oscuro"
+  },
+  "ram": {
+    "archivo": "ram-real.svg",
+    "credito": "FCA US LLC",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Ram_Trucks_2025_wordmark.svg",
+    "fondo": "oscuro"
+  },
+  "leapmotor": {
+    "archivo": "leapmotor-real.svg",
+    "credito": "零跑汽车",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Leapmotor_logo_en.svg",
+    "fondo": "oscuro"
+  },
+  "bmw": {
+    "archivo": "bmw-real.svg",
+    "credito": "BMW",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:BMW.svg",
+    "fondo": "oscuro"
+  },
+  "citroen": {
+    "archivo": "citroen-real.svg",
+    "credito": "Unknown",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_2021.svg",
+    "fondo": "oscuro"
+  },
+  "iveco": {
+    "archivo": "iveco-real.svg",
+    "credito": "Iveco Group N.V.",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Iveco_Logo_2023.svg",
+    "fondo": "oscuro"
+  },
+  "great-wall": {
+    "archivo": "great-wall-real.svg",
+    "credito": "Great Wall Motor Company Limited",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:GWM_2025_logo.svg",
+    "fondo": "oscuro"
+  },
+  "tank": {
+    "archivo": "tank-real.svg",
+    "credito": "Great Wall Motor",
+    "licencia": "Public domain",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Tank_(Great_Wall_Motor_brand)_logo,_global_market.svg",
+    "fondo": "oscuro"
   }
 }
