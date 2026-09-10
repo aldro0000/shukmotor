@@ -16,6 +16,9 @@ import { join } from 'node:path'
 import type { MovimientoPrecio, TipoMovimientoPrecio } from '../src/types'
 import { emparejar, nombreMarca } from './emparejar-modelo'
 import type { Snapshot } from './snapshot-precios'
+import { movimientos as historicos } from '../src/data/movimientos'
+import { createHash } from 'node:crypto'
+import { ejecutado } from './pipeline-utils'
 
 const DIR_SNAPSHOTS = join(process.cwd(), 'data', 'snapshots')
 const ESTADO = join(process.cwd(), 'data', 'precios-estado.json')
@@ -27,7 +30,7 @@ type EstadoFila = {
   precioLista: number | null
   fechaUltimoCambio: string
 }
-type Estado = Record<string, EstadoFila>
+export type Estado = Record<string, EstadoFila>
 
 function clave(marca: string, modelo: string, version: string): string {
   return `${marca}|${modelo}|${version}`
@@ -46,23 +49,18 @@ function diasEntre(a: string, b: string): number {
   return Math.round((new Date(b).getTime() - new Date(a).getTime()) / 86_400_000)
 }
 
-function main() {
-  const snapshot = ultimoSnapshot()
-  if (!snapshot) {
-    console.log('No hay ningún snapshot todavía. Corré snapshot-precios primero.')
-    return
-  }
-
-  const estadoViejo: Estado = existsSync(ESTADO) ? JSON.parse(readFileSync(ESTADO, 'utf8')) : {}
+export function detectarCambios(snapshot: Snapshot, estadoViejo: Estado) {
   const estadoNuevo: Estado = {}
   const marcasViejas = new Set(Object.keys(estadoViejo).map((k) => k.split('|')[0]))
   const marcasNuevasVistas = new Set<string>()
   const movimientos: MovimientoPrecio[] = []
-  let n = 0
 
   const agregar = (tipo: TipoMovimientoPrecio, marca: string, modelo: string, version: string, opts: Partial<MovimientoPrecio> = {}) => {
     movimientos.push({
-      id: `mov-${snapshot.fecha}-${n++}`,
+      id: `mov-${snapshot.fecha}-${createHash('sha256').update(`${tipo}|${marca}|${modelo}|${version}`).digest('hex').slice(0, 16)}`,
+      moneda: '$',
+      precioLista: null,
+      precioAnterior: null,
       tipo,
       marca: nombreMarca(marca),
       modelo,
@@ -75,6 +73,12 @@ function main() {
       modeloSlug: emparejar(marca, modelo),
       ...opts,
     })
+    const mov = movimientos.at(-1)!
+    mov.moneda = snapshot.items.find(i => i.marca === marca && i.modelo === modelo && i.version === version)?.moneda
+      ?? estadoViejo[clave(marca, modelo, version)]?.moneda ?? '$'
+    mov.precioLista = mov.precioListaARS
+    mov.precioAnterior = mov.precioAnteriorARS
+    if (mov.moneda !== '$') { mov.precioListaARS = null; mov.precioAnteriorARS = null }
   }
 
   for (const item of snapshot.items) {
@@ -110,7 +114,7 @@ function main() {
       agregar('version_nueva', item.marca, item.modelo, item.version, { precioListaARS: item.precioLista })
     } else if (previa.precioLista !== null && item.precioLista !== null) {
       const pct = Math.round(((item.precioLista - previa.precioLista) / previa.precioLista) * 1000) / 10
-      agregar(pct > 0 ? 'suba' : 'baja', item.marca, item.modelo, item.version, {
+      agregar(item.precioLista > previa.precioLista ? 'suba' : 'baja', item.marca, item.modelo, item.version, {
         precioListaARS: item.precioLista,
         precioAnteriorARS: previa.precioLista,
         porcentaje: pct,
@@ -132,17 +136,35 @@ function main() {
     }
   }
 
-  writeFileSync(ESTADO, JSON.stringify(estadoNuevo, null, 1))
+  return { estadoNuevo, movimientos }
+}
+
+export function acumularMovimientos(previos: MovimientoPrecio[], nuevos: MovimientoPrecio[]) {
+  return [...new Map([...previos, ...nuevos].map(m => [m.id, m])).values()]
+    .sort((a, b) => a.fecha.localeCompare(b.fecha) || a.id.localeCompare(b.id))
+}
+
+function main() {
+  const snapshot = ultimoSnapshot()
+  if (!snapshot) throw new Error('No hay snapshot: ejecutar snapshot:precios antes del diff.')
+  const estadoViejo: Estado = existsSync(ESTADO) ? JSON.parse(readFileSync(ESTADO, 'utf8')) : {}
+  const { estadoNuevo, movimientos } = detectarCambios(snapshot, estadoViejo)
+  const acumulados = acumularMovimientos(historicos, movimientos)
+  const registro: { fecha: string }[] = existsSync(join(DIR_SNAPSHOTS, 'registro.json'))
+    ? JSON.parse(readFileSync(join(DIR_SNAPSHOTS, 'registro.json'), 'utf8')) : []
+  const relevamiento = registro.at(-1)?.fecha ?? snapshot.fecha
 
   const cuerpo = `// Se genera con \`npm run diff:precios\`. No editar a mano: se pisa en cada corrida.
 import type { MovimientoPrecio } from '../types'
 
 /** Último relevamiento: ${snapshot.fecha}, fuente ${snapshot.fuente} */
-export const FECHA_ULTIMO_RELEVAMIENTO = '${snapshot.fecha}'
+export const FECHA_ULTIMO_RELEVAMIENTO = '${relevamiento}'
 
-export const movimientos: MovimientoPrecio[] = ${JSON.stringify(movimientos, null, 1)}
+export const movimientos: MovimientoPrecio[] = ${JSON.stringify(acumulados, null, 1)}
 `
   writeFileSync(DESTINO, cuerpo)
+  // El historial se escribe primero: si se interrumpe, la próxima corrida deduplica por ID.
+  writeFileSync(ESTADO, JSON.stringify(estadoNuevo, null, 1))
   console.log(`${movimientos.length} movimientos detectados. Escrito en ${DESTINO}.`)
   for (const tipo of ['suba', 'baja', 'version_nueva', 'version_baja', 'marca_nueva', 'marca_desaparece'] as const) {
     const n2 = movimientos.filter((m) => m.tipo === tipo).length
@@ -150,4 +172,4 @@ export const movimientos: MovimientoPrecio[] = ${JSON.stringify(movimientos, nul
   }
 }
 
-main()
+if (ejecutado(import.meta.url)) main()

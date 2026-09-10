@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "types": ["node"]
+  },
+  "include": ["scripts/rss.ts", "scripts/radar.ts", "scripts/videos.ts", "scripts/borradores.ts", "scripts/pr-body.ts", "scripts/publicar-borradores.ts", "scripts/diff-precios.ts", "scripts/historial-precios.ts", "scripts/pipeline-utils.ts", "scripts/pipeline.test.ts"]
+}

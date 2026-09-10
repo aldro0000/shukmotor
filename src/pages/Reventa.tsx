@@ -115,6 +115,7 @@ export default function Reventa() {
       </section>
 
       <Container className="py-10">
+        <Link to="/precios" className="btn btn-ghost mb-6">Consultar referencias 0km de ACARA</Link>
         <details className="acc card">
           <summary className="flex items-center gap-4 p-5">
             <Info className="size-5 shrink-0 text-soft" aria-hidden />

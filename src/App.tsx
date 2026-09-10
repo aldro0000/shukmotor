@@ -14,6 +14,7 @@ const ModeloPage = lazy(() => import('./pages/ModeloPage'))
 const Comparar = lazy(() => import('./pages/Comparar'))
 const OpinionesPage = lazy(() => import('./pages/OpinionesPage'))
 const Reventa = lazy(() => import('./pages/Reventa'))
+const Precios = lazy(() => import('./pages/Precios'))
 const Posventa = lazy(() => import('./pages/Posventa'))
 const Calendario = lazy(() => import('./pages/Calendario'))
 const Financiacion = lazy(() => import('./pages/Financiacion'))
@@ -55,6 +56,7 @@ export default function App() {
           <Route path="/comparar" element={<Comparar />} />
           <Route path="/opiniones" element={<OpinionesPage />} />
           <Route path="/reventa" element={<Reventa />} />
+          <Route path="/precios" element={<Precios />} />
           <Route path="/posventa" element={<Posventa />} />
           <Route path="/calendario" element={<Calendario />} />
           <Route path="/financiacion" element={<Financiacion />} />

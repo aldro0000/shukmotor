@@ -168,6 +168,8 @@ const defs: Def[] = [
   },
 ]
 
+import { borradores } from './borradores'
+
 type FotoNotaJson = {
   archivo: string
   credito: string
@@ -180,7 +182,7 @@ type FotoNotaJson = {
 
 const reales = fotosNotas as Record<string, FotoNotaJson>
 
-export const novedades: Novedad[] = defs.map((d) => {
+const manuales: Novedad[] = defs.map((d) => {
   const f = reales[d.slug]
   return {
     ...d,
@@ -192,5 +194,13 @@ export const novedades: Novedad[] = defs.map((d) => {
     imagenHeight: f ? f.height : 1000,
   }
 })
+
+export const novedades: Novedad[] = [
+  ...borradores.filter(n => n.estado === 'publicado').map((n): Novedad => ({
+    id: n.id, slug: n.id, titulo: n.titulo, bajada: n.bajada, cuerpo: n.cuerpo,
+    categoria: n.categoria, fecha: n.fecha, evidencia: n.evidencia,
+    imagen: '', imagenCredito: '', imagenFuente: '', imagenWidth: 0, imagenHeight: 0,
+  })), ...manuales,
+].sort((a, b) => b.fecha.localeCompare(a.fecha))
 
 export const novedadesPorSlug: Record<string, Novedad> = Object.fromEntries(novedades.map((n) => [n.slug, n]))

@@ -14,7 +14,7 @@ const marcasIds = new Set(marcas.map((m) => m.id))
 if (marcas.length < 40) errores.push(`Hay ${marcas.length} marcas, se piden al menos 40`)
 if (modelos.length < 120) errores.push(`Hay ${modelos.length} modelos publicados, se piden al menos 120`)
 if (opiniones.length < 380) errores.push(`Hay ${opiniones.length} opiniones, se piden al menos 380`)
-if (novedades.length !== 20) errores.push(`Hay ${novedades.length} novedades, se piden 20`)
+if (novedades.length < 20) errores.push(`Hay ${novedades.length} novedades, se piden al menos 20`)
 
 const slugsMarca = new Set<string>()
 for (const m of marcas) {
@@ -72,7 +72,7 @@ const ocultos = todosLosModelos.filter((m) => !m.visible)
 console.log(`Modelos ocultos por falta de fotos: ${ocultos.length}`)
 const conReal = modelos.filter((m) => m.fotos.some((f) => !f.esIlustracion))
 const fotosReales = modelos.reduce((a, m) => a + m.fotos.filter((f) => !f.url.endsWith('.svg')).length, 0)
-const notasConReal = novedades.filter((n) => !n.imagen.endsWith('.svg')).length
+const notasConReal = novedades.filter((n) => n.imagen && !n.imagen.endsWith('.svg')).length
 console.log(`Fotos reales: ${fotosReales} en ${conReal.length}/${modelos.length} modelos; ${notasConReal}/${novedades.length} notas`)
 
 // Ninguna foto real puede quedar sin autor identificable
@@ -84,6 +84,7 @@ for (const m of modelos) {
   }
 }
 for (const n of novedades) {
+  if (!n.imagen && n.evidencia?.length) continue
   if (n.imagen.endsWith('.svg')) continue
   if (!n.imagenCredito.trim()) errores.push(`${n.slug}: imagen de nota sin autor`)
 }

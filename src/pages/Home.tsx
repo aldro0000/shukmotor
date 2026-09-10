@@ -30,7 +30,7 @@ const MIN = 20_000_000
 const MAX = 140_000_000
 
 /** Notas con foto que pasó la curaduría. La portada no usa otra cosa. */
-const NOTAS_CON_FOTO = novedades.filter((n) => !n.imagen.endsWith('.svg'))
+const NOTAS_CON_FOTO = novedades.filter((n) => n.imagen && !n.imagen.endsWith('.svg'))
 /** Llegadas confirmadas con foto real. Sin foto la card promete algo que no muestra. */
 const PROXIMOS = modelosProximos.filter((m) => !m.fotos[0].esIlustracion).slice(0, 4)
 
@@ -479,6 +479,12 @@ export default function Home() {
 
       <Container className="mt-12">
         <CapturaMail />
+      </Container>
+      <Container className="mt-12">
+        <div className="card flex flex-wrap items-center justify-between gap-4 p-5">
+          <div><p className="eyebrow">Referencias de ACARA</p><h2 className="mt-1 text-2xl">Qué subió y qué bajó</h2><p className="mt-2 text-sm text-soft">Últimos cambios e historial de precios oficiales por versión.</p></div>
+          <Link to="/precios" className="btn btn-ghost">Ver precios oficiales <ArrowUpRight className="size-4" aria-hidden /></Link>
+        </div>
       </Container>
     </>
   )

@@ -22,7 +22,7 @@ export function todasLasRutas(): RutaImagen[] {
     for (const f of m.fotos) rutas.push({ url: f.url, donde: `foto ${f.tipo} de ${m.slug}` })
     for (const v of m.videoReviews) rutas.push({ url: v.miniatura, donde: `miniatura de video de ${m.slug}` })
   }
-  for (const n of novedades) rutas.push({ url: n.imagen, donde: `imagen de nota ${n.slug}` })
+  for (const n of novedades) if (n.imagen) rutas.push({ url: n.imagen, donde: `imagen de nota ${n.slug}` })
   return rutas
 }
 

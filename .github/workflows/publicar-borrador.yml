@@ -1,0 +1,30 @@
+name: Verificar publicación editorial integrada
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+permissions:
+  contents: read
+  issues: write
+jobs:
+  verificar:
+    if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'auto/novedades-') && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.merge_commit_sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      # El cambio de estado ya está en la rama revisada, por eso integra el MISMO merge.
+      # Un evento closed no puede editar retroactivamente ese commit sin reescribir historia.
+      - run: npm run publicar:borradores -- --verificar
+      - run: npm run build
+      - if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: gh issue create --title 'Falló la verificación de la publicación editorial' --body "Revisar $RUN_URL. No se modificó la historia del merge."

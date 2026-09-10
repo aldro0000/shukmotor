@@ -26,21 +26,21 @@ export default function NovedadPage() {
         </p>
         <h1 className="mt-2 text-3xl leading-[1] md:text-5xl">{nota.titulo}</h1>
         <p className="mt-4 text-xl text-soft">{nota.bajada}</p>
-        <figure className="card mt-8 overflow-hidden">
+        {nota.imagen && <figure className="card mt-8 overflow-hidden">
           <Img src={nota.imagen} alt="" width={nota.imagenWidth} height={nota.imagenHeight} eager />
           <figcaption className="border-t border-border px-3 py-2 text-xs text-soft">
             Foto: {nota.imagenCredito} · {nota.imagenFuente}
           </figcaption>
-        </figure>
+        </figure>}
         <div className="prose mt-8 text-lg leading-relaxed">
           {nota.cuerpo.split('\n\n').map((p, i) => (
             <p key={i}>{p}</p>
           ))}
         </div>
         <p className="mt-8 border-t border-border pt-4 text-sm text-soft">
-          Redacción SHUKMOTOR. Datos de ejemplo: precios y fechas ilustrativos. No cobramos de marcas ni importadores por
-          escribir.
+          {nota.evidencia ? 'Redacción SHUKMOTOR. Referencias de la guía oficial de ACARA; no equivalen a ofertas de concesionarias.' : 'Redacción SHUKMOTOR. Datos de ejemplo: precios y fechas ilustrativos.'}
         </p>
+        {nota.evidencia && <div className="mt-4 text-sm"><a className="underline" href="https://www.acaramotos.org.ar/guia-oficial-de-precios.php?tipo=AUTOS" target="_blank" rel="noopener noreferrer">Fuente: guía oficial de ACARA</a><details className="mt-3"><summary>Evidencia del relevamiento</summary><ul className="mt-2 break-words">{nota.evidencia.map(e => <li key={e}>{e}</li>)}</ul></details></div>}
       </article>
 
       <section className="mx-auto mt-14 max-w-5xl">
@@ -48,9 +48,9 @@ export default function NovedadPage() {
         <div className="mt-4 grid gap-4 sm:grid-cols-3">
           {otras.map((n) => (
             <Link key={n.id} to={`/novedades/${n.slug}`} className="card card-link overflow-hidden">
-              <span className="card-img block aspect-[16/10]">
+              {n.imagen && <span className="card-img block aspect-[16/10]">
                 <Img src={n.imagen} alt="" width={n.imagenWidth} height={n.imagenHeight} className="h-full w-full object-cover" />
-              </span>
+              </span>}
               <span className="block p-4">
                 <span className="eyebrow">{formatFecha(n.fecha)}</span>
                 <span className="mt-1 block font-display text-lg font-bold leading-tight">{n.titulo}</span>

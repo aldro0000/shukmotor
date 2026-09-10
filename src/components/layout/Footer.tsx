@@ -16,6 +16,7 @@ const COLUMNAS = [
     titulo: 'Leer',
     links: [
       { to: '/novedades', label: 'Novedades' },
+      { to: '/precios', label: 'Precios oficiales y movimientos' },
       { to: '/como-trabajamos', label: 'Cómo trabajamos' },
       { to: '/novedades/reventa-2026-que-marcas-mantienen-valor', label: 'Reventa 2026' },
       { to: '/creditos', label: 'Créditos de las fotos' },
@@ -71,7 +72,7 @@ export function Footer() {
         <div className="container-x flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 py-4 text-xs text-soft">
           <p>© 2026 SHUKMOTOR. Hecho en Argentina.</p>
           <p className="flex flex-wrap items-baseline gap-x-2 gap-y-1 sm:justify-end">
-            <span>Datos de ejemplo: precios, tasas y fechas son ilustrativos.</span>
+            <span>Catálogo: datos ilustrativos. /precios: referencias oficiales de ACARA.</span>
             <Cotizacion />
           </p>
         </div>

@@ -36,10 +36,10 @@ export default function Novedades() {
       </div>
 
       {primera && (
-        <Link to={`/novedades/${primera.slug}`} className="card card-link grid overflow-hidden md:grid-cols-[1.4fr_1fr]">
-          <span className="card-img block aspect-[16/10]">
+        <Link to={`/novedades/${primera.slug}`} className={`card card-link grid overflow-hidden ${primera.imagen ? 'md:grid-cols-[1.4fr_1fr]' : ''}`}>
+          {primera.imagen && <span className="card-img block aspect-[16/10]">
             <Img src={primera.imagen} alt="" width={primera.imagenWidth} height={primera.imagenHeight} eager className="h-full w-full object-cover" />
-          </span>
+          </span>}
           <span className="flex flex-col justify-center p-6">
             <span className="eyebrow">
               {primera.categoria} · {formatFecha(primera.fecha)}
@@ -53,9 +53,9 @@ export default function Novedades() {
       <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {resto.map((n) => (
           <Link key={n.id} to={`/novedades/${n.slug}`} className="card card-link overflow-hidden">
-            <span className="card-img block aspect-[16/10]">
+            {n.imagen && <span className="card-img block aspect-[16/10]">
               <Img src={n.imagen} alt="" width={n.imagenWidth} height={n.imagenHeight} className="h-full w-full object-cover" />
-            </span>
+            </span>}
             <span className="block p-4">
               <span className="eyebrow">
                 {n.categoria} · {formatFecha(n.fecha)}

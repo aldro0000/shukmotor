@@ -1,0 +1,112 @@
+name: Novedades automáticas
+on:
+  schedule:
+    - cron: '0 12,21 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+concurrency:
+  group: novedades-main
+  cancel-in-progress: false
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - name: Configurar autor
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Snapshot completo de ACARA
+        run: npm run snapshot:precios
+      - name: Diferencias e historial compacto
+        run: |
+          npm run diff:precios
+          npm run historial:precios
+      - name: Metadata de YouTube
+        id: videos
+        continue-on-error: true
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: npm run fetch:videos
+      - name: Validar datos automáticos
+        run: |
+          npm run test:pipeline
+          npm run build
+      - name: Publicar datos automáticos
+        run: |
+          git add data/snapshots data/precios-estado.json src/data/movimientos.ts src/data/historial-precios.ts src/data/videos.ts
+          if test -f data/youtube-cuota.json; then git add data/youtube-cuota.json; fi
+          if ! git diff --cached --quiet; then
+            git commit -m 'Actualizar referencias ACARA y metadata de YouTube: datos oficiales sin publicación editorial'
+            git pull --rebase origin main
+            npm run build
+            git push origin HEAD:main
+          fi
+      - name: Respetar revisión editorial en curso
+        id: pendiente
+        run: |
+          abiertos=$(gh pr list --base main --state open --json headRefName --jq '[.[] | select(.headRefName | startswith("auto/novedades-"))] | length')
+          echo "abiertos=$abiertos" >> "$GITHUB_OUTPUT"
+      - name: Leer RSS
+        id: radar
+        if: steps.pendiente.outputs.abiertos == '0'
+        continue-on-error: true
+        run: npm run radar
+      - name: Preparar borradores y cuerpo del PR
+        if: steps.pendiente.outputs.abiertos == '0'
+        run: |
+          npm run borradores
+          npm run pr:body
+      - name: Abrir revisión, sin merge automático
+        if: steps.pendiente.outputs.abiertos == '0'
+        run: |
+          cantidad=$(node --input-type=module -e 'import fs from "node:fs"; const n=JSON.parse(fs.readFileSync("data/.tmp/borradores-nuevos.json")); const r=JSON.parse(fs.readFileSync("data/.tmp/radar.json")); console.log(n.length+r.entradas.length)')
+          if test "$cantidad" = 0; then exit 0; fi
+          rama="auto/novedades-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git switch -c "$rama"
+          npm run publicar:borradores
+          cp data/.tmp/radar-vistos.json data/radar-vistos.json
+          cp data/.tmp/borradores-vistos.json data/borradores-vistos.json
+          git add src/data/borradores.ts data/radar-vistos.json data/borradores-vistos.json
+          if git diff --cached --quiet; then exit 0; fi
+          npm run build
+          git commit -m 'Preparar notas con evidencia propia: el merge humano habilita su publicación y confirma el radar revisado'
+          git pull --rebase origin main
+          npm run build
+          git push origin "HEAD:$rama"
+          gh pr create --base main --head "$rama" --title 'Novedades: revisión de datos y borradores' --body-file data/.tmp/pr-body.md
+      - name: Conservar cuota si falló una fase posterior
+        if: failure() && steps.videos.outcome != 'skipped'
+        run: |
+          if test -f data/youtube-cuota.json && test -n "$(git status --porcelain -- data/youtube-cuota.json)"; then
+            cp data/youtube-cuota.json /tmp/shukmotor-youtube-cuota.json
+            git worktree add /tmp/shukmotor-cuota origin/main
+            cp /tmp/shukmotor-youtube-cuota.json /tmp/shukmotor-cuota/data/youtube-cuota.json
+            git -C /tmp/shukmotor-cuota add data/youtube-cuota.json
+            if ! git -C /tmp/shukmotor-cuota diff --cached --quiet; then
+              git -C /tmp/shukmotor-cuota commit -m 'Conservar cuota consumida de YouTube tras un fallo del pipeline'
+              git -C /tmp/shukmotor-cuota pull --rebase origin main
+              git -C /tmp/shukmotor-cuota push origin HEAD:main
+            fi
+          fi
+      - name: Reportar fallos visibles
+        if: always() && (failure() || steps.videos.outcome == 'failure' || steps.radar.outcome == 'failure')
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          gh issue create --title "Fallo del pipeline de novedades — ${GITHUB_RUN_ID}" --body "Revisar el paso fallido y su error en $RUN_URL. No se publica prosa automáticamente; los feeds fallidos se reintentan en la próxima corrida."
+          exit 1

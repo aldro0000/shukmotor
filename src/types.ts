@@ -187,6 +187,8 @@ export type CategoriaNovedad =
   | 'opiniones'
 
 export type Novedad = {
+  /** Evidencia propia de notas automáticas revisadas. Sin titulares del radar. */
+  evidencia?: string[]
   id: string
   slug: string
   titulo: string
@@ -339,6 +341,10 @@ export type TipoMovimientoPrecio = 'suba' | 'baja' | 'version_nueva' | 'version_
  */
 export type MovimientoPrecio = {
   id: string
+  moneda: '$' | 'u$s'
+  /** Valores en la moneda de origen. Los campos ARS quedan null para USD. */
+  precioLista: number | null
+  precioAnterior: number | null
   tipo: TipoMovimientoPrecio
   marca: string
   modelo: string

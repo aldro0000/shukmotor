@@ -25,6 +25,8 @@ import { Videos } from '../components/ficha/Videos'
 import { Opiniones } from '../components/ficha/Opiniones'
 import { DondeComprarlo } from '../components/ficha/DondeComprarlo'
 import NotFound from './NotFound'
+import { movimientos } from '../data/movimientos'
+import { resumenModelo } from '../lib/precios'
 
 type Tab = 'ficha' | 'posventa' | 'comprar'
 
@@ -64,6 +66,7 @@ export default function ModeloPage() {
   const idxMarca = indicePorMarca[marca.id]
   const idxModelo = indicePorModelo[modelo.slug]
   const pv = posventaPorMarca[marca.id]
+  const movimiento = resumenModelo(movimientos, modelo.slug)
 
   return (
     <Container className="py-6 md:py-8">
@@ -120,6 +123,8 @@ export default function ModeloPage() {
           </p>
           )}
           <DatosEjemplo className="mt-2" />
+          {movimiento && <p className="mt-3 text-sm text-soft">{movimiento}</p>}
+          <Link to={`/precios?modelo=${encodeURIComponent(modelo.slug)}`} className="mt-2 inline-block text-sm underline">Ver referencias e historial de ACARA</Link>
 
           {/* 3. Para quién es y para quién no */}
           <div className="mt-6 lg:hidden">
