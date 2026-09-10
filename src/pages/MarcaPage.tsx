@@ -104,15 +104,17 @@ export default function MarcaPage() {
                 </dd>
               </div>
             </div>
-            <div className="flex gap-3">
-              <TrendingUp className="mt-1 size-5 shrink-0 text-soft" aria-hidden />
-              <div>
-                <dt className="eyebrow">Rango de precios</dt>
-                <dd className="tabular mt-0.5 text-sm font-medium">
-                  {formatMillones(masBarato.precioCalleARS)} a {formatMillones(masCaro.precioCalleARS)}
-                </dd>
+            {masBarato && (
+              <div className="flex gap-3">
+                <TrendingUp className="mt-1 size-5 shrink-0 text-soft" aria-hidden />
+                <div>
+                  <dt className="eyebrow">Rango de precios</dt>
+                  <dd className="tabular mt-0.5 text-sm font-medium">
+                    {formatMillones(masBarato.precioCalleARS)} a {formatMillones(masCaro.precioCalleARS)}
+                  </dd>
+                </div>
               </div>
-            </div>
+            )}
           </dl>
           <details className="acc mt-4 text-sm text-soft">
             <summary className="inline-flex cursor-pointer items-center gap-1 hover:text-text">
