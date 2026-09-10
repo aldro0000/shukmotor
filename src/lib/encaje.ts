@@ -223,10 +223,21 @@ function razonesEnContra(c: Ctx): Linea[] {
   return l
 }
 
-function elegir(lineas: Linea[], n = 3): string[] {
+/**
+ * Elige `n` líneas de un modelo, penalizando las que ya se usaron mucho en
+ * otras fichas del catálogo (mismo criterio que `construirEtiquetas`, un poco
+ * más abajo en este archivo). Sin esto, dos modelos con la misma garantía o
+ * la misma tracción siempre mostraban la frase idéntica: el peso fijo no
+ * distingue "el hecho más fuerte de este auto" de "el hecho que ya
+ * repetimos cincuenta veces". Los respaldos universales (precio, plazas,
+ * motor) ya son distintos por modelo porque llevan sus propios números, así
+ * que la penalización sólo mueve la aguja entre los hechos genéricos
+ * compartidos, que es donde estaba la repetición real.
+ */
+function elegir(lineas: Linea[], usadas: Map<string, number>, n = 3): string[] {
   const vistas = new Set<string>()
-  return lineas
-    .sort((a, b) => b.peso - a.peso)
+  const elegidas = lineas
+    .sort((a, b) => b.peso - (usadas.get(b.texto) ?? 0) * 6 - (a.peso - (usadas.get(a.texto) ?? 0) * 6))
     .filter((x) => {
       if (vistas.has(x.texto)) return false
       vistas.add(x.texto)
@@ -234,13 +245,38 @@ function elegir(lineas: Linea[], n = 3): string[] {
     })
     .slice(0, n)
     .map((x) => x.texto)
+  for (const t of elegidas) usadas.set(t, (usadas.get(t) ?? 0) + 1)
+  return elegidas
 }
 
 export type Encaje = { aFavor: string[]; enContra: string[] }
 
+function construirEncajes(): Map<string, Encaje> {
+  const salida = new Map<string, Encaje>()
+  const usadasFavor = new Map<string, number>()
+  const usadasContra = new Map<string, number>()
+  for (const m of todosLosModelos) {
+    const c = contexto(m)
+    salida.set(m.id, {
+      aFavor: elegir(razonesAFavor(c), usadasFavor),
+      enContra: elegir(razonesEnContra(c), usadasContra),
+    })
+  }
+  return salida
+}
+
+// Igual que con las etiquetas: se recalcula sólo si cambió la moneda, porque
+// varias líneas llevan un monto adentro ("por menos de $ 40 M").
+let encajesCache: Map<string, Encaje> | null = null
+let encajesFirma = ''
+
 export function encajeDe(m: Modelo): Encaje {
-  const c = contexto(m)
-  return { aFavor: elegir(razonesAFavor(c)), enContra: elegir(razonesEnContra(c)) }
+  const f = firmaMoneda()
+  if (!encajesCache || encajesFirma !== f) {
+    encajesCache = construirEncajes()
+    encajesFirma = f
+  }
+  return encajesCache.get(m.id) ?? { aFavor: [], enContra: [] }
 }
 
 // ---------------------------------------------------------------------------
