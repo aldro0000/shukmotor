@@ -3,6 +3,7 @@ import { useSearchParams } from 'react-router-dom'
 import { ArrowLeft, ArrowRight, Check, ChevronDown, Link2, RotateCcw, SlidersHorizontal } from 'lucide-react'
 import type { Modelo } from '../types'
 import { ETIQUETA_COMBUSTIBLE, ETIQUETA_SEGMENTO, formatMillones, formatUSD, modelosALaVenta } from '../data'
+import { useMoneda } from '../hooks/monedaContexto'
 import { useTitle } from '../hooks/useTitle'
 import { Chip, Container, DatosEjemplo } from '../components/ui'
 import { ModeloCard } from '../components/modelo/ModeloCard'
@@ -108,8 +109,12 @@ function Progreso({ paso, irA, estado }: { paso: Estado['paso']; irA: (p: Estado
 }
 
 function PasoPresupuesto({ estado, set }: { estado: Estado; set: (c: Partial<Estado>, o?: { replace?: boolean }) => void }) {
-  const [usadoTxt, setUsadoTxt] = useState(estado.usado ? String(Math.round(estado.usado / 1_000_000)) : '')
-  const usado = Number(usadoTxt) * 1_000_000 || 0
+  // El monto se tipea en la unidad de la moneda elegida: millones de pesos o
+  // miles de dólares. Se guarda siempre en pesos.
+  const { moneda, dolar } = useMoneda()
+  const unidad = moneda === 'USD' ? dolar.valor * 1000 : 1_000_000
+  const [usadoTxt, setUsadoTxt] = useState(estado.usado ? String(Math.round(estado.usado / unidad)) : '')
+  const usado = Number(usadoTxt) * unidad || 0
   const total = estado.presupuesto + usado
   const entran = useMemo(() => modelosALaVenta.filter((m) => m.precioCalleARS <= total).length, [total])
   const pct = ((estado.presupuesto - PRESUPUESTO_MIN) / (PRESUPUESTO_MAX - PRESUPUESTO_MIN)) * 100
@@ -157,17 +162,17 @@ function PasoPresupuesto({ estado, set }: { estado: Estado; set: (c: Partial<Est
               Entrego mi usado por <span className="text-xs">(opcional)</span>
             </label>
             <div className="relative mt-1">
-              <span className="pointer-events-none absolute inset-y-0 left-3 flex items-center text-soft">$</span>
+              <span className="pointer-events-none absolute inset-y-0 left-3 flex items-center text-soft">{moneda === 'USD' ? 'US$' : '$'}</span>
               <input
                 id="b-usado"
                 inputMode="numeric"
-                placeholder="ej. 12"
+                placeholder={moneda === 'USD' ? 'ej. 8' : 'ej. 12'}
                 value={usadoTxt}
                 onChange={(e) => setUsadoTxt(e.target.value.replace(/[^\d]/g, '').slice(0, 3))}
                 onBlur={() => set({ usado }, { replace: true })}
-                className="field pl-7 pr-20"
+                className={`field pr-20 ${moneda === 'USD' ? 'pl-12' : 'pl-7'}`}
               />
-              <span className="pointer-events-none absolute inset-y-0 right-3 flex items-center text-sm text-soft">millones</span>
+              <span className="pointer-events-none absolute inset-y-0 right-3 flex items-center text-sm text-soft">{moneda === 'USD' ? 'miles' : 'millones'}</span>
             </div>
           </div>
           <p className="tabular text-sm text-soft" aria-live="polite">

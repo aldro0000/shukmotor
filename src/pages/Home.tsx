@@ -20,6 +20,7 @@ import {
   patrocinios,
   promedioReventa12m,
 } from '../data'
+import { useMoneda } from '../hooks/monedaContexto'
 import { useTitle } from '../hooks/useTitle'
 import { Container, DatosEjemplo, Img, SectionHead } from '../components/ui'
 import { MarcasGrid } from '../components/marca/MarcasGrid'
@@ -41,7 +42,10 @@ function Buscador() {
   const navigate = useNavigate()
   const [monto, setMonto] = useState(38_000_000)
   const [usado, setUsado] = useState('')
-  const usadoNum = Number(usado.replace(/\D/g, '')) * 1_000_000 || 0
+  // Igual que en el buscador: se tipea en la unidad de la moneda elegida.
+  const { moneda, dolar } = useMoneda()
+  const unidad = moneda === 'USD' ? dolar.valor * 1000 : 1_000_000
+  const usadoNum = Number(usado.replace(/\D/g, '')) * unidad || 0
   const total = monto + usadoNum
   const entran = useMemo(() => modelosALaVenta.filter((m) => m.precioCalleARS <= total).length, [total])
   const pct = ((monto - MIN) / (MAX - MIN)) * 100
@@ -97,19 +101,19 @@ function Buscador() {
             <div className="mt-6 grid gap-3 sm:grid-cols-[1fr_auto] sm:items-end">
               <div>
                 <label htmlFor="home-usado" className="text-sm font-medium text-soft">
-                  Entrego mi usado por <span className="text-xs">(opcional, en millones)</span>
+                  Entrego mi usado por <span className="text-xs">(opcional, en {moneda === 'USD' ? 'miles' : 'millones'})</span>
                 </label>
                 <div className="relative mt-1">
-                  <span className="pointer-events-none absolute inset-y-0 left-3 flex items-center text-soft">$</span>
+                  <span className="pointer-events-none absolute inset-y-0 left-3 flex items-center text-soft">{moneda === 'USD' ? 'US$' : '$'}</span>
                   <input
                     id="home-usado"
                     inputMode="numeric"
-                    placeholder="ej. 12"
+                    placeholder={moneda === 'USD' ? 'ej. 8' : 'ej. 12'}
                     value={usado}
                     onChange={(e) => setUsado(e.target.value.replace(/[^\d]/g, '').slice(0, 3))}
-                    className="field pl-7 pr-10"
+                    className={`field pr-10 ${moneda === 'USD' ? 'pl-12' : 'pl-7'}`}
                   />
-                  <span className="pointer-events-none absolute inset-y-0 right-3 flex items-center text-sm text-soft">M</span>
+                  <span className="pointer-events-none absolute inset-y-0 right-3 flex items-center text-sm text-soft">{moneda === 'USD' ? 'mil' : 'M'}</span>
                 </div>
               </div>
               <button type="submit" className="btn btn-primary h-[46px]">

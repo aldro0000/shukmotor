@@ -1,13 +1,11 @@
 import type { Marca, Modelo, Opinion, Veredicto } from '../types'
+import { formatCorto, formatDolares, formatLargo } from '../lib/moneda'
 import { marcas, marcasPorId, logoEsClaro, logoEsReal } from './marcas'
 import { modelos, modelosALaVenta, modelosPorId, modelosProximos, todosLosModelos } from './modelos'
 import { novedades, novedadesPorSlug } from './novedades'
 import { opiniones, opinionesPorModelo } from './opiniones'
 
 export { marcas, marcasPorId, logoEsClaro, logoEsReal, modelos, modelosALaVenta, modelosProximos, modelosPorId, todosLosModelos, novedades, novedadesPorSlug, opiniones, opinionesPorModelo }
-
-/** Tipo de cambio de referencia para mostrar "por USD X más entrás a estos". Ilustrativo. */
-export const DOLAR_REFERENCIA_ARS = 1450
 
 /** Leyenda obligatoria en toda pantalla que muestre precios. */
 export const LEYENDA_DATOS = 'Datos de ejemplo'
@@ -66,26 +64,29 @@ export const masMirados: Modelo[] = (() => {
   return [...elegidos, ...relleno].slice(0, 8)
 })()
 
-const fmtARS = new Intl.NumberFormat('es-AR', { style: 'currency', currency: 'ARS', maximumFractionDigits: 0 })
 const fmtNum = new Intl.NumberFormat('es-AR', { maximumFractionDigits: 0 })
 
+/**
+ * Los precios del catálogo están todos en pesos. Estas tres funciones los
+ * pasan a la moneda que eligió quien mira, leyendo el store de `lib/moneda`.
+ * Así el botón de pesos/dólares no obliga a tocar cada lugar que muestra plata.
+ */
 export function formatARS(n: number): string {
-  return fmtARS.format(n)
+  return formatLargo(n)
 }
 
-/** "$ 31,2 M" para cards y sliders. */
+/** "$ 31,2 M" en pesos, "US$ 20,3 mil" en dólares. Cards y sliders. */
 export function formatMillones(n: number): string {
-  const m = n / 1_000_000
-  return `$ ${m.toLocaleString('es-AR', { minimumFractionDigits: 1, maximumFractionDigits: 1 })} M`
+  return formatCorto(n)
 }
 
 export function formatNumero(n: number): string {
   return fmtNum.format(n)
 }
 
+/** Siempre en dólares, aunque se esté mirando en pesos. */
 export function formatUSD(ars: number): string {
-  const usd = Math.round(ars / DOLAR_REFERENCIA_ARS / 100) * 100
-  return `USD ${fmtNum.format(usd)}`
+  return formatDolares(ars)
 }
 
 export function formatDuracion(seg: number): string {

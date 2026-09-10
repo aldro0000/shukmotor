@@ -198,6 +198,14 @@ a { color: inherit; }
 }
 .wordmark em { font-style: normal; color: var(--accent); }
 
+/*
+ * En pantallas muy angostas el logo compite con el selector de moneda, el de
+ * tema y el menú. Achicarlo ahí evita que el menú se salga de la pantalla.
+ */
+@media (max-width: 400px) {
+  .wordmark { font-size: 1.15rem; letter-spacing: 0; }
+}
+
 .nav-link {
   position: relative;
   padding: 0.35rem 0;
@@ -248,6 +256,51 @@ a { color: inherit; }
   user-select: none;
   transition: border-color 120ms ease, background 120ms ease, color 120ms ease;
 }
+/*
+ * Conmutador de dos estados con los dos rótulos a la vista, para el selector de
+ * moneda. Un botón que muestra sólo la otra opción obliga a adivinar en cuál
+ * estás; acá se ve cuál está activa.
+ */
+.conmutador {
+  display: inline-flex;
+  align-items: stretch;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  border-radius: 999px;
+  padding: 2px;
+  line-height: 1;
+}
+
+.conmutador button {
+  min-width: 2.35rem;
+  padding: 0.32rem 0.5rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text-soft);
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 120ms ease, color 120ms ease;
+}
+
+.conmutador button:hover { color: var(--text); }
+
+/* En pantallas chicas el header pelea por cada píxel con el logo y el menú. */
+@media (max-width: 480px) {
+  .conmutador button {
+    min-width: 1.7rem;
+    padding: 0.28rem 0.25rem;
+    font-size: 0.74rem;
+  }
+}
+
+.conmutador button[aria-pressed="true"] {
+  background: var(--text);
+  color: var(--bg);
+}
+
 .chip:hover { border-color: var(--text-soft); }
 .chip[aria-pressed="true"], .chip[data-on="true"] {
   background: var(--text);

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { Menu, Moon, Sun, X, Search } from 'lucide-react'
+import { BotonMoneda } from './BotonMoneda'
 import { useTheme } from '../../hooks/useTheme'
 
 const NAV = [
@@ -49,7 +50,8 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex items-center gap-1">
+        <div className="flex shrink-0 items-center gap-1 sm:gap-2">
+          <BotonMoneda />
           <Link to="/buscar" className="btn btn-primary btn-sm hidden sm:inline-flex">
             <Search className="size-4" aria-hidden />
             Qué me conviene
@@ -57,7 +59,7 @@ export function Header() {
           <button
             type="button"
             onClick={alternar}
-            className="inline-flex size-9 items-center justify-center rounded-sm text-soft hover:bg-surface-2 hover:text-text"
+            className="inline-flex size-8 shrink-0 items-center justify-center rounded-sm text-soft hover:bg-surface-2 hover:text-text sm:size-9"
             aria-label={tema === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
             title={tema === 'dark' ? 'Modo claro' : 'Modo oscuro'}
           >
@@ -66,7 +68,7 @@ export function Header() {
           <button
             type="button"
             onClick={() => setAbierto(!abierto)}
-            className="inline-flex size-9 items-center justify-center rounded-sm text-soft hover:bg-surface-2 hover:text-text lg:hidden"
+            className="inline-flex size-8 shrink-0 items-center justify-center rounded-sm text-soft hover:bg-surface-2 hover:text-text sm:size-9 lg:hidden"
             aria-expanded={abierto}
             aria-controls="menu-mobile"
             aria-label={abierto ? 'Cerrar menú' : 'Abrir menú'}

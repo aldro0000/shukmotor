@@ -10,6 +10,7 @@ import {
   promedioReventa36m,
   todosLosModelos,
 } from '../data'
+import { firmaMoneda } from './moneda'
 
 /**
  * Juicio de ENCAJE, no de calidad.
@@ -307,7 +308,7 @@ export function puntajesDe(m: Modelo): Puntajes {
 // ---------------------------------------------------------------------------
 
 export function etiquetaDe(m: Modelo): string {
-  return ETIQUETAS.get(m.id) ?? `Mucho ${ETIQUETA_SEGMENTO[m.segmento].toLowerCase()} por el precio`
+  return etiquetas().get(m.id) ?? `Mucho ${ETIQUETA_SEGMENTO[m.segmento].toLowerCase()} por el precio`
 }
 
 /**
@@ -393,4 +394,19 @@ function construirEtiquetas(): Map<string, string> {
   return salida
 }
 
-const ETIQUETAS = construirEtiquetas()
+/**
+ * Las etiquetas se calculan una vez porque comparan cada modelo contra su
+ * segmento y evitan repetirse en una misma grilla. Pero algunas llevan un monto
+ * adentro, así que se recalculan cuando cambia la moneda o la cotización.
+ */
+let etiquetasCache: Map<string, string> | null = null
+let etiquetasFirma = ''
+
+function etiquetas(): Map<string, string> {
+  const f = firmaMoneda()
+  if (!etiquetasCache || etiquetasFirma !== f) {
+    etiquetasCache = construirEtiquetas()
+    etiquetasFirma = f
+  }
+  return etiquetasCache
+}

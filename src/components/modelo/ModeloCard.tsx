@@ -4,6 +4,7 @@ import type { Modelo } from '../../types'
 import { formatMillones, marcasPorId, ETIQUETA_COMBUSTIBLE } from '../../data'
 import { Img } from '../ui'
 import { etiquetaDe } from '../../lib/encaje'
+import { useMoneda } from '../../hooks/monedaContexto'
 
 export function ModeloCard({
   modelo,
@@ -15,6 +16,10 @@ export function ModeloCard({
   motivo?: string
   eager?: boolean
 }) {
+  // Suscribe la card al cambio de moneda: los formateadores leen un store que
+  // vive fuera de React, así que sin esto la card no se enteraría de que hay
+  // que volver a dibujar el precio.
+  useMoneda()
   const marca = marcasPorId[modelo.marcaId]
   const foto = modelo.fotos[0]
   return (
