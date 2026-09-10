@@ -63,6 +63,14 @@ const defs: Def[] = [
     cuerpo: `El Toyota Yaris Cross se vende con listas de espera de 45 días o más y, en varias concesionarias, con un sobreprecio que llega al 10 por ciento sobre el precio oficial.\n\nEl auto en sí es un Yaris más alto, con el mismo motor 1.5 de 107 CV. Su ventaja es la marca, el consumo y una reventa que hoy es la mejor del segmento.\n\nCon la misma plata, y sin esperar, se consiguen un Chevrolet Tracker con más motor, un Renault Kardian con caja de doble embrague o un Chery Tiggo 4 Pro con más equipamiento. Nuestra recomendación es esperar solo si la reventa es lo primero en la lista.`,
   },
   {
+    slug: 'stock-sin-vender-marcas-bajan-precios-2026',
+    titulo: 'Stock sin vender y autos chinos: por qué las marcas tradicionales bajan precios',
+    bajada: 'Infobae reportó unas 135.000 unidades acumuladas en el mercado local. Varias marcas ya recortan precio de lista para competir con las chinas. Qué vamos a poder medir desde acá cuando eso llegue a ACARA.',
+    fecha: '2026-09-10',
+    categoria: 'analisis',
+    cuerpo: `Esta semana varios medios (Infobae e informedigital.com.ar, entre otros) reportaron que marcas tradicionales están bajando precios de lista puntualmente para responder al avance de las chinas en el mercado argentino. No es sólo descuento de concesionaria: es la lista la que se mueve.\n\nInfobae citó un stock acumulado de alrededor de 135.000 unidades sin vender en el mercado local. Con ese volumen sobrante, tiene sentido que aparezca presión sobre el precio de lista antes de que se note en ningún otro lado: es más barato bajar el precio que seguir financiando el stock parado.\n\nAcá es donde entra lo que armamos en /precios. La Guía Oficial de ACARA se actualiza una vez por mes, así que un recorte de esta semana puede tardar en aparecer ahí formalmente. Pero cuando lo haga, nuestro detector lo va a marcar solo, con fecha y versión, sin depender de que salga en ningún medio. Mientras tanto, el índice de reventa es otra forma de ver la misma presión antes de tiempo: una marca que empieza a perder valor de reventa más rápido que el promedio suele ser la primera en tener que tocar precio de lista después.`,
+  },
+  {
     slug: 'reventa-2026-que-marcas-mantienen-valor',
     titulo: 'Reventa 2026: Toyota sigue arriba, las chinas mejoran y las premium sorprenden',
     bajada: 'Actualizamos la tabla de retención de valor a 12 y 36 meses con datos de todas las marcas que venden en el país.',
