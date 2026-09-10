@@ -31,7 +31,7 @@ export function generarNotas(ms: MovimientoPrecio[], fecha: string): BorradorNot
   for (const marca of new Set(delMes.map(m => m.marca))) {
     const subas = ms.filter(m => m.marca === marca && m.tipo === 'suba' && m.fecha.startsWith(fecha.slice(0, 4)) && m.fecha <= fecha)
     const fechas = [...new Set(subas.map(m => m.fecha))]
-    if (fechas.length >= 3) crear(`frecuencia-${mes}-${hash(marca).slice(0, 8)}`, `${marca}: versiones con aumentos en ${fechas.length} relevamientos del año`,
+    if (fechas.length >= 2) crear(`frecuencia-${mes}-${hash(marca).slice(0, 8)}`, `${marca}: versiones con aumentos en ${fechas.length} relevamientos del año`,
       `Encontramos subas de una o más versiones de ${marca} en ${fechas.length} fechas distintas: ${fechas.join(', ')}. Se cuentan fechas de relevamiento, no versiones, y no se infiere una suba de toda la marca.`, subas.map(m => m.id))
   }
   return salida
