@@ -2,6 +2,6 @@
 import type { MovimientoPrecio } from '../types'
 
 /** Último relevamiento: 2026-09-10, fuente https://www.acaramotos.org.ar/guia-oficial-de-precios.php?tipo=AUTOS */
-export const FECHA_ULTIMO_RELEVAMIENTO = '2026-09-10'
+export const FECHA_ULTIMO_RELEVAMIENTO = '2026-09-11'
 
 export const movimientos: MovimientoPrecio[] = []
