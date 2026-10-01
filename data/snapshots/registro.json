@@ -68,5 +68,10 @@
   "fecha": "2026-09-29",
   "cambio": false,
   "archivo": "precios-2026-09-10.json"
+ },
+ {
+  "fecha": "2026-10-01",
+  "cambio": false,
+  "archivo": "precios-2026-09-10.json"
  }
 ]
